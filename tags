@@ -1,0 +1,1883 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AND	filt_parser.c	24;"	d	file:
+ATM_SLEN	erf.c	126;"	d	file:
+ATM_SNAPLEN	erf.c	121;"	d	file:
+ATM_WLEN	erf.c	127;"	d	file:
+AVL_WhichDir	trace.c	/^AVL_WhichDir($/;"	f
+ActiveConn	mod_tcplib.c	/^ActiveConn($/;"	f	file:
+AddAckTS	mod_http.c	/^AddAckTS($/;"	f	file:
+AddDataTS	mod_http.c	/^AddDataTS($/;"	f	file:
+AddEndpointPair	mod_tcplib.c	/^AddEndpointPair($/;"	f	file:
+AddGetTS	mod_http.c	/^AddGetTS($/;"	f	file:
+AddSample	mod_rttgraph.c	/^AddSample($/;"	f	file:
+AddTS	mod_http.c	/^AddTS($/;"	f	file:
+AddToCounter	dyncounter.c	/^AddToCounter($/;"	f
+AgeSlice	mod_slice.c	/^AgeSlice($/;"	f	file:
+AgeTraffic	mod_traffic.c	/^AgeTraffic(void)$/;"	f	file:
+AllTCPInteractivity	mod_inbounds.c	/^    AllTCPInteractivity(void)$/;"	f	file:
+AllUDPInteractivity	mod_inbounds.c	/^     AllUDPInteractivity(void)$/;"	f	file:
+Args	tcptrace.c	/^Args(void)$/;"	f	file:
+Average	output.c	/^Average($/;"	f	file:
+BAND	filt_parser.c	26;"	d	file:
+BEGIN	filt_scanner.c	97;"	d	file:
+BOOL	filt_parser.c	37;"	d	file:
+BOR	filt_parser.c	27;"	d	file:
+BREAKDOWN_APPS_NAMES	mod_tcplib.c	/^char *BREAKDOWN_APPS_NAMES[] = {$/;"	v
+BURST_KEY_MAGIC	mod_tcplib.c	101;"	d	file:
+BadArg	tcptrace.c	/^BadArg($/;"	f	file:
+Block	pool.c	/^struct Block {$/;"	s	file:
+CACHE_SIZE	mod_tcplib.c	1557;"	d	file:
+CADEBUG	gcache.c	144;"	d	file:
+CAERROR	gcache.c	145;"	d	file:
+CAMEMSIZE	gcache.c	590;"	d	file:
+CARDINALITY	dyncounter.c	74;"	d	file:
+CB_FREE	gcache.c	/^enum cb_status { CB_INUSE=1, CB_FREE=2};$/;"	e	enum:cb_status	file:
+CB_INUSE	gcache.c	/^enum cb_status { CB_INUSE=1, CB_FREE=2};$/;"	e	enum:cb_status	file:
+CE_FREE	gcache.c	/^enum ce_status {CE_INUSE=11, CE_FREE=12};$/;"	e	enum:ce_status	file:
+CE_INUSE	gcache.c	/^enum ce_status {CE_INUSE=11, CE_FREE=12};$/;"	e	enum:ce_status	file:
+CHECK_O_LEN	trace.c	2879;"	d	file:
+CallDoPlot	plotter.c	/^CallDoPlot($/;"	f	file:
+CheckArguments	tcptrace.c	/^CheckArguments($/;"	f	file:
+CheckPortNum	mod_traffic.c	/^CheckPortNum($/;"	f	file:
+ClosedUDPConn	mod_inbounds.c	/^     ClosedUDPConn()$/;"	f	file:
+ColorNames	tcptrace.c	/^char *ColorNames[NCOLORS] =$/;"	v
+CompCloseFile	compress.c	/^CompCloseFile($/;"	f
+CompFormats	compress.c	/^CompFormats(void)$/;"	f
+CompIsCompressed	compress.c	/^CompIsCompressed(void)$/;"	f
+CompOpenFile	compress.c	/^CompOpenFile($/;"	f
+CompOpenHeader	compress.c	/^CompOpenHeader($/;"	f
+CompOpenPipe	compress.c	/^CompOpenPipe($/;"	f	file:
+CompReopenFile	compress.c	/^CompReopenFile($/;"	f	file:
+CompSaveHeader	compress.c	/^CompSaveHeader($/;"	f	file:
+ConnComplete	output.c	/^ConnComplete($/;"	f
+ConnReset	output.c	/^ConnReset($/;"	f
+Const2Ipaddr	filter.c	/^Const2Ipaddr($/;"	f	file:
+Const2Signed	filter.c	/^Const2Signed($/;"	f	file:
+Const2Unsigned	filter.c	/^Const2Unsigned($/;"	f	file:
+CopyAddr	trace.c	/^CopyAddr($/;"	f
+CouldBeFtpData	mod_tcplib.c	/^CouldBeFtpData($/;"	f	file:
+DEFAULT_SERVER_PORT	mod_http.c	66;"	d	file:
+DESCR	mod_collie.c	172;"	d	file:
+DFLT_BLOCKS_NUM	pool.c	85;"	d	file:
+DFLT_POOLS_NUM	pool.c	84;"	d	file:
+DIVIDE	filt_parser.c	31;"	d	file:
+DSAppendChar	dstring.c	/^DSAppendChar($/;"	f
+DSAppendString	dstring.c	/^DSAppendString($/;"	f
+DSAppendStringN	dstring.c	/^DSAppendStringN($/;"	f
+DSDestroy	dstring.c	/^DSDestroy(struct dstring **ppds)$/;"	f
+DSErase	dstring.c	/^DSErase($/;"	f
+DSExpand	dstring.c	/^DSExpand(struct dstring *pds)$/;"	f	file:
+DSNew	dstring.c	/^DSNew(void)$/;"	f
+DSVal	dstring.c	/^DSVal($/;"	f
+DataOffset	mod_http.c	/^DataOffset($/;"	f	file:
+DefineInside	mod_tcplib.c	/^DefineInside($/;"	f	file:
+DefineInsideRange	mod_tcplib.c	/^DefineInsideRange($/;"	f	file:
+DefineInsideRecurse	mod_tcplib.c	/^DefineInsideRecurse($/;"	f	file:
+DestroyCounters	dyncounter.c	/^DestroyCounters($/;"	f
+DestroyTree	dyncounter.c	/^DestroyTree($/;"	f	file:
+DoHist	mod_rttgraph.c	/^DoHist($/;"	f	file:
+DoPlot	plotter.c	/^DoPlot($/;"	f	file:
+DoThru	thruput.c	/^DoThru($/;"	f
+DoplotIOpen	mod_traffic.c	/^DoplotIOpen(int port, Bool fopen)$/;"	f	file:
+DumpFlags	tcptrace.c	/^DumpFlags(void)$/;"	f	file:
+ECHO	filt_scanner.c	587;"	d	file:
+EH_SIZE	tcpdump.c	80;"	d	file:
+ENDPOINT_PAIR_HASHSIZE	mod_tcplib.c	219;"	d	file:
+EOB_ACT_CONTINUE_SCAN	filt_scanner.c	122;"	d	file:
+EOB_ACT_END_OF_FILE	filt_scanner.c	123;"	d	file:
+EOB_ACT_LAST_MATCH	filt_scanner.c	124;"	d	file:
+EOS	filt_parser.c	14;"	d	file:
+EPFileHeader	etherpeek.c	/^static struct EPFileHeader {$/;"	s	file:
+EPFileHeader2	etherpeek.c	/^static struct EPFileHeader2 {$/;"	s	file:
+EPFilePacket2_v5_6	etherpeek.c	/^struct EPFilePacket2_v5_6 {$/;"	s	file:
+EPFilePacket3_v5_6	etherpeek.c	/^struct EPFilePacket3_v5_6 { $/;"	s	file:
+EPFilePacket_v5_6	etherpeek.c	/^struct EPFilePacket_v5_6 {$/;"	s	file:
+EP_V5	etherpeek.c	152;"	d	file:
+EP_V6	etherpeek.c	153;"	d	file:
+EP_V7	etherpeek.c	154;"	d	file:
+EQUAL	filt_parser.c	21;"	d	file:
+ERF_HEADER_LEN	erf.c	109;"	d	file:
+ETHERNET_SLEN	erf.c	133;"	d	file:
+ETHERNET_WLEN	erf.c	132;"	d	file:
+EXCLUDE_PORT	mod_traffic.c	118;"	d	file:
+EndpointHash	mod_tcplib.c	/^EndpointHash($/;"	f	file:
+EndpointName	names.c	/^EndpointName($/;"	f
+Ether_Ntoa	print.c	/^Ether_Ntoa (struct ether_addr *e)$/;"	f
+EvalConstant	filter.c	/^EvalConstant($/;"	f	file:
+EvalFilter	filter.c	/^EvalFilter($/;"	f	file:
+EvalMathopSigned	filter.c	/^EvalMathopSigned($/;"	f	file:
+EvalMathopUnsigned	filter.c	/^EvalMathopUnsigned($/;"	f	file:
+EvalRelopIpaddr	filter.c	/^EvalRelopIpaddr($/;"	f	file:
+EvalRelopSigned	filter.c	/^EvalRelopSigned($/;"	f	file:
+EvalRelopString	filter.c	/^EvalRelopString($/;"	f	file:
+EvalRelopUnsigned	filter.c	/^EvalRelopUnsigned($/;"	f	file:
+EvalVariable	filter.c	/^EvalVariable($/;"	f	file:
+ExcludePorts	mod_traffic.c	/^ExcludePorts($/;"	f	file:
+ExpandFormat	tcptrace.c	/^ExpandFormat(const char *format)$/;"	f
+ExplainOutput	tcptrace.c	/^ExplainOutput(void)$/;"	f	file:
+ExtractContents	trace.c	/^ExtractContents($/;"	f	file:
+FCS_BITS	erf.c	112;"	d	file:
+FDDIPATTERNLEN	snoop.c	115;"	d	file:
+FLEX_SCANNER	filt_scanner.c	25;"	d	file:
+FileIsStdin	compress.c	/^FileIsStdin($/;"	f
+FileToBuf	tcptrace.c	/^FileToBuf($/;"	f	file:
+Filter2Str	filter.c	/^Filter2Str($/;"	f
+FinCount	output.c	/^FinCount($/;"	f
+FindBinary	compress.c	/^static char *FindBinary($/;"	f	file:
+FindClient	mod_http.c	/^FindClient($/;"	f	file:
+FindContent	mod_http.c	/^FindContent($/;"	f	file:
+FindCounter	dyncounter.c	/^FindCounter($/;"	f	file:
+FindEndpointPair	mod_tcplib.c	/^FindEndpointPair($/;"	f	file:
+FindGets	mod_http.c	/^FindGets($/;"	f	file:
+FindLeaf	dyncounter.c	/^FindLeaf($/;"	f	file:
+FindPort	mod_traffic.c	/^FindPort($/;"	f	file:
+FindPrevConnection	mod_tcplib.c	/^FindPrevConnection($/;"	f
+FindTTP	trace.c	/^FindTTP($/;"	f	file:
+FindTwig	dyncounter.c	/^FindTwig($/;"	f	file:
+FindUTP	udp.c	/^FindUTP($/;"	f	file:
+FinishModules	tcptrace.c	/^FinishModules(void)$/;"	f	file:
+FinishTree	dyncounter.c	/^FinishTree($/;"	f	file:
+FinishTreeRecurse	dyncounter.c	/^FinishTreeRecurse($/;"	f	file:
+FormatAddrBrief	mod_tcplib.c	/^FormatAddrBrief($/;"	f	file:
+FormatBrief	mod_tcplib.c	/^FormatBrief($/;"	f	file:
+FormatBrief	output.c	/^FormatBrief($/;"	f	file:
+Formats	tcptrace.c	/^Formats(void)$/;"	f	file:
+FrameNum	netscout.c	/^    tt_int32	FrameNum;$/;"	m	struct:netscout_packet_header	file:
+FreePtpPtr	poolaccess.c	/^FreePtpPtr($/;"	f
+FreePtpSnap	poolaccess.c	/^FreePtpSnap($/;"	f
+FreeQuadrant	poolaccess.c	/^FreeQuadrant($/;"	f
+FreeRtconn	mod_realtime.c	/^FreeRtconn($/;"	f	file:
+FreeSegment	poolaccess.c	/^FreeSegment($/;"	f
+FreeSeqspace	poolaccess.c	/^FreeSeqspace($/;"	f
+FreeTcpPair	poolaccess.c	/^FreeTcpPair($/;"	f
+FreeUdpPair	poolaccess.c	/^FreeUdpPair($/;"	f
+Freeitcinfo	mod_inbounds.c	/^     Freeitcinfo($/;"	f	file:
+Freeiucinfo	mod_inbounds.c	/^     Freeiucinfo($/;"	f	file:
+GREATER	filt_parser.c	17;"	d	file:
+GREATER_EQ	filt_parser.c	18;"	d	file:
+GetGran	dyncounter.c	/^GetGran($/;"	f
+GetMaxCount	dyncounter.c	/^GetMaxCount($/;"	f
+GetMaxIx	dyncounter.c	/^GetMaxIx($/;"	f
+GetMinIx	dyncounter.c	/^GetMinIx($/;"	f
+GetTotalCounter	dyncounter.c	/^GetTotalCounter($/;"	f
+GrabOnly	tcptrace.c	/^GrabOnly($/;"	f	file:
+GrabOnlyUDP	tcptrace.c	/^     GrabOnlyUDP($/;"	f	file:
+HASHTOIX	gcache.c	139;"	d	file:
+HASH_TABLE_SIZE	trace.c	731;"	d	file:
+HASH_TABLE_SIZE	trace.c	733;"	d	file:
+HASH_TABLE_SIZE	udp.c	141;"	d	file:
+HDLC_SLEN	erf.c	139;"	d	file:
+HDLC_WLEN	erf.c	138;"	d	file:
+Help	tcptrace.c	/^Help($/;"	f	file:
+HelpFilter	filter.c	/^HelpFilter(void)$/;"	f
+HelpFilterVariables	filter.c	/^HelpFilterVariables(void)$/;"	f	file:
+Hints	tcptrace.c	/^Hints(void)$/;"	f	file:
+HostAddr	names.c	/^HostAddr($/;"	f
+HostLetter	plotter.c	/^HostLetter($/;"	f
+HostName	names.c	/^HostName($/;"	f
+HttpDoPlot	mod_http.c	/^HttpDoPlot()$/;"	f	file:
+HttpGather	mod_http.c	/^HttpGather($/;"	f	file:
+HttpPrintone	mod_http.c	/^HttpPrintone($/;"	f	file:
+INBOUNDS_DEBUG	mod_inbounds.c	158;"	d	file:
+INBOUNDS_TCP_UPDATE_INTERVAL	mod_inbounds.c	155;"	d	file:
+INBOUNDS_UDP_UPDATE_INTERVAL	mod_inbounds.c	156;"	d	file:
+INCLUDE_PHONE_CONV	mod_tcplib.c	81;"	d	file:
+INCLUDE_PORT	mod_traffic.c	119;"	d	file:
+INCOMING	mod_tcplib.c	/^enum t_dtype {LOCAL = 0, INCOMING = 1, OUTGOING = 2, REMOTE = 3};$/;"	e	enum:t_dtype	file:
+INITIAL	filt_scanner.c	436;"	d	file:
+IPADDR	filt_parser.c	38;"	d	file:
+IPHash	mod_tcplib.c	/^IPHash($/;"	f	file:
+IPV4ADDR2ADDR	ipv6.c	/^IPV4ADDR2ADDR($/;"	f
+IPV6ADDR2ADDR	ipv6.c	/^IPV6ADDR2ADDR($/;"	f
+IP_COPYADDR	trace.c	/^static inline void IP_COPYADDR (ipaddr *ptoaddr, ipaddr *pfromaddr)$/;"	f	file:
+IP_LOWADDR	trace.c	/^static inline int IP_LOWADDR (ipaddr *paddr1, ipaddr *paddr2)$/;"	f	file:
+IP_SAMEADDR	trace.c	/^static inline int IP_SAMEADDR (ipaddr *paddr1, ipaddr *paddr2)$/;"	f	file:
+IPcmp	ipv6.c	/^int IPcmp($/;"	f
+ISBADCID	gcache.c	137;"	d	file:
+IS_CLIENT	mod_http.c	202;"	d	file:
+IS_SERVER	mod_http.c	203;"	d	file:
+Ignore	tcptrace.c	/^Ignore($/;"	f	file:
+IgnoreConn	trace.c	/^IgnoreConn($/;"	f
+IgnoreUDP	tcptrace.c	/^     IgnoreUDP($/;"	f	file:
+IgnoreUDPConn	udp.c	/^void IgnoreUDPConn($/;"	f
+IncludePorts	mod_traffic.c	/^IncludePorts($/;"	f	file:
+Indent	dyncounter.c	/^static void Indent(int depth)$/;"	f	file:
+InsideBytes	mod_tcplib.c	/^static int InsideBytes($/;"	f	file:
+InstallFilter	filter.c	/^InstallFilter($/;"	f
+IsInside	mod_tcplib.c	/^IsInside($/;"	f	file:
+IsNewBurst	mod_inbounds.c	/^     IsNewBurst($/;"	f	file:
+IsNewBurst	mod_tcplib.c	/^IsNewBurst($/;"	f	file:
+IsRTO	rexmit.c	/^Bool IsRTO(tcb *ptcb, seqnum s) {$/;"	f
+LABEL	mod_collie.c	170;"	d	file:
+LESS	filt_parser.c	19;"	d	file:
+LESS_EQ	filt_parser.c	20;"	d	file:
+LOCAL	mod_tcplib.c	/^enum t_dtype {LOCAL = 0, INCOMING = 1, OUTGOING = 2, REMOTE = 3};$/;"	e	enum:t_dtype	file:
+LOCAL_ONLY	mod_tcplib.c	96;"	d	file:
+LOOP_OVER_BOTH_TCBS	mod_tcplib.c	165;"	d	file:
+LPAREN	filt_parser.c	15;"	d	file:
+ListModules	tcptrace.c	/^ListModules(void)$/;"	f	file:
+LoadModules	tcptrace.c	/^LoadModules($/;"	f	file:
+LookupCounter	dyncounter.c	/^LookupCounter($/;"	f
+LookupVar	filter.c	/^LookupVar($/;"	f	file:
+MAX_RECORD_LEN	erf.c	110;"	d	file:
+MFMap	mod_http.c	/^MFMap($/;"	f	file:
+MFUnMap	mod_http.c	/^MFUnMap($/;"	f	file:
+MINUS	filt_parser.c	29;"	d	file:
+MOD	filt_parser.c	32;"	d	file:
+M_closeold	mfiles.c	/^M_closeold(void)$/;"	f	file:
+M_mkdirp	mfiles.c	/^M_mkdirp(char *directory)$/;"	f	file:
+M_printlru	mfiles.c	/^M_printlru(void)$/;"	f	file:
+Mac2unix	etherpeek.c	146;"	d	file:
+MakeBinaryNode	filter.c	/^MakeBinaryNode($/;"	f
+MakeBoolConstNode	filter.c	/^MakeBoolConstNode($/;"	f
+MakeBuckets	mod_rttgraph.c	/^MakeBuckets($/;"	f	file:
+MakeConjunction	filter.c	/^MakeConjunction($/;"	f	file:
+MakeConnRec	mod_collie.c	/^MakeConnRec(void)$/;"	f	file:
+MakeConnRec	mod_traffic.c	/^MakeConnRec(void)$/;"	f	file:
+MakeCounter	dyncounter.c	/^MakeCounter($/;"	f	file:
+MakeCounterStruct	dyncounter.c	/^MakeCounterStruct()$/;"	f	file:
+MakeDepth	dyncounter.c	/^MakeDepth($/;"	f	file:
+MakeDisjunction	filter.c	/^MakeDisjunction($/;"	f	file:
+MakeGetRec	mod_http.c	/^MakeGetRec($/;"	f	file:
+MakeHttpRec	mod_http.c	/^MakeHttpRec()$/;"	f	file:
+MakeIPaddrConstNode	filter.c	/^MakeIPaddrConstNode($/;"	f
+MakeList	pool.c	/^MakeList($/;"	f	file:
+MakeMemPool	pool.c	/^MakeMemPool($/;"	f
+MakeOneBinaryNode	filter.c	/^MakeOneBinaryNode($/;"	f	file:
+MakePtpPtr	poolaccess.c	/^MakePtpPtr($/;"	f
+MakePtpSnap	poolaccess.c	/^MakePtpSnap($/;"	f
+MakeQuadrant	poolaccess.c	/^MakeQuadrant($/;"	f
+MakeRtconn	mod_realtime.c	/^MakeRtconn($/;"	f	file:
+MakeRttgraphRec	mod_rttgraph.c	/^MakeRttgraphRec()$/;"	f	file:
+MakeSegment	poolaccess.c	/^MakeSegment($/;"	f
+MakeSeqspace	poolaccess.c	/^MakeSeqspace($/;"	f
+MakeSignedConstNode	filter.c	/^MakeSignedConstNode($/;"	f
+MakeStringConstNode	filter.c	/^MakeStringConstNode($/;"	f
+MakeTcpPair	poolaccess.c	/^MakeTcpPair($/;"	f
+MakeTrafficLines	mod_traffic.c	/^MakeTrafficLines($/;"	f	file:
+MakeTrafficRec	mod_traffic.c	/^MakeTrafficRec($/;"	f	file:
+MakeUDPConnRec	mod_collie.c	/^MakeUDPConnRec(void)$/;"	f	file:
+MakeUdpPair	poolaccess.c	/^MakeUdpPair($/;"	f
+MakeUnaryNode	filter.c	/^MakeUnaryNode($/;"	f
+MakeUnsignedConstNode	filter.c	/^MakeUnsignedConstNode($/;"	f
+MakeVarNode	filter.c	/^MakeVarNode($/;"	f
+Makeitcinfo	mod_inbounds.c	/^     Makeitcinfo($/;"	f	file:
+Makeiucinfo	mod_inbounds.c	/^     Makeiucinfo($/;"	f	file:
+MallocZ	tcptrace.c	/^MallocZ($/;"	f
+Mcheck	mfiles.c	/^Mcheck($/;"	f	file:
+MemCpy	tcptrace.c	/^MemCpy(void *vp1, void *vp2, size_t n)$/;"	f
+MethodCode	mod_http.c	/^} MethodCode;$/;"	t	typeref:enum:__anon4	file:
+MethodCodeDelete	mod_http.c	/^     MethodCodeDelete,$/;"	e	enum:__anon4	file:
+MethodCodeGet	mod_http.c	/^     MethodCodeGet,$/;"	e	enum:__anon4	file:
+MethodCodeHead	mod_http.c	/^     MethodCodeHead,$/;"	e	enum:__anon4	file:
+MethodCodeOptions	mod_http.c	/^     MethodCodeOptions,$/;"	e	enum:__anon4	file:
+MethodCodePost	mod_http.c	/^     MethodCodePost,$/;"	e	enum:__anon4	file:
+MethodCodePut	mod_http.c	/^     MethodCodePut,$/;"	e	enum:__anon4	file:
+MethodCodeString	mod_http.c	/^char *MethodCodeString[] = {$/;"	v
+MethodCodeTrace	mod_http.c	/^     MethodCodeTrace,$/;"	e	enum:__anon4	file:
+MethodCodeUnknown	mod_http.c	/^     MethodCodeUnknown$/;"	e	enum:__anon4	file:
+Mf_totail	mfiles.c	/^Mf_totail($/;"	f	file:
+Mf_unlink	mfiles.c	/^Mf_unlink($/;"	f	file:
+Mfclose	mfiles.c	/^Mfclose($/;"	f
+Mfflush	mfiles.c	/^Mfflush($/;"	f
+Mfileno	mfiles.c	/^Mfileno($/;"	f
+Mfopen	mfiles.c	/^Mfopen($/;"	f
+Mfopen_internal	mfiles.c	/^Mfopen_internal($/;"	f	file:
+Mfpipe	mfiles.c	/^Mfpipe($/;"	f
+Mfprintf	mfiles.c	/^Mfprintf($/;"	f
+Mfseek	mfiles.c	/^Mfseek($/;"	f
+Mftell	mfiles.c	/^Mftell($/;"	f
+Mfwrite	mfiles.c	/^Mfwrite($/;"	f
+Minit	mfiles.c	/^Minit(void)$/;"	f
+MissingData	trace.c	/^MissingData(tcp_pair *ptp)$/;"	f	file:
+ModuleConnFillcache	mod_tcplib.c	/^ModuleConnFillcache($/;"	f	file:
+ModulesPerConn	tcptrace.c	/^ModulesPerConn($/;"	f	file:
+ModulesPerFile	tcptrace.c	/^ModulesPerFile($/;"	f	file:
+ModulesPerNonTCPUDP	tcptrace.c	/^ModulesPerNonTCPUDP($/;"	f	file:
+ModulesPerOldConn	tcptrace.c	/^ModulesPerOldConn($/;"	f
+ModulesPerPacket	tcptrace.c	/^ModulesPerPacket($/;"	f	file:
+ModulesPerUDPConn	tcptrace.c	/^ModulesPerUDPConn($/;"	f	file:
+ModulesPerUDPPacket	tcptrace.c	/^ModulesPerUDPPacket($/;"	f	file:
+MoreTcpPairs	trace.c	/^MoreTcpPairs($/;"	f	file:
+MoreUdpPairs	udp.c	/^MoreUdpPairs($/;"	f	file:
+MostRecentFtpControl	mod_tcplib.c	/^MostRecentFtpControl($/;"	f	file:
+MustBeType	filter.c	/^MustBeType($/;"	f	file:
+Mvfprintf	mfiles.c	/^Mvfprintf($/;"	f
+NEQUAL	filt_parser.c	22;"	d	file:
+NETM_DUMP_OFFSET	netm.c	71;"	d	file:
+NETM_KEY	netm.c	88;"	d	file:
+NETM_VERSION_NEW	netm.c	87;"	d	file:
+NETM_VERSION_OLD	netm.c	86;"	d	file:
+NOT	filt_parser.c	23;"	d	file:
+NULL_IX	gcache.c	111;"	d	file:
+NULL_PCE	gcache.c	129;"	d	file:
+NULL_PHE	gcache.c	110;"	d	file:
+NUM_DIRECTION_TYPES	mod_tcplib.c	86;"	d	file:
+NUM_EXTENDED_BOOLS	tcptrace.c	269;"	d	file:
+NUM_EXTENDED_OPTIONS	tcptrace.c	336;"	d	file:
+NUM_EXTENDED_VARS	tcptrace.c	313;"	d	file:
+NUM_PORTS	mod_traffic.c	116;"	d	file:
+NUM_SLICES	mod_rttgraph.c	74;"	d	file:
+NewModuleConn	mod_tcplib.c	/^NewModuleConn()$/;"	f	file:
+NewNode	dyncounter.c	/^NewNode($/;"	f	file:
+NewTTP	trace.c	/^NewTTP($/;"	f	file:
+NewUTP	udp.c	/^NewUTP($/;"	f	file:
+NextCounter	dyncounter.c	/^NextCounter($/;"	f
+NextCounterRecurse	dyncounter.c	/^NextCounterRecurse($/;"	f	file:
+NextHostLetter	plotter.c	/^NextHostLetter(void)$/;"	f
+OR	filt_parser.c	25;"	d	file:
+OUTGOING	mod_tcplib.c	/^enum t_dtype {LOCAL = 0, INCOMING = 1, OUTGOING = 2, REMOTE = 3};$/;"	e	enum:t_dtype	file:
+OnlyConn	trace.c	/^OnlyConn($/;"	f
+OnlyUDPConn	udp.c	/^OnlyUDPConn($/;"	f
+Op2Str	filter.c	/^Op2Str($/;"	f
+PLOTTER_ACTIVE_FILENAME	mod_traffic.c	161;"	d	file:
+PLOTTER_BYTES_FILENAME	mod_traffic.c	159;"	d	file:
+PLOTTER_DATA_FILENAME	mod_traffic.c	171;"	d	file:
+PLOTTER_HALFOPEN_FILENAME	mod_traffic.c	168;"	d	file:
+PLOTTER_IDLE_FILENAME	mod_traffic.c	170;"	d	file:
+PLOTTER_I_OPEN_FILENAME	mod_traffic.c	164;"	d	file:
+PLOTTER_LONG_FILENAME	mod_traffic.c	166;"	d	file:
+PLOTTER_LOSS_FILENAME	mod_traffic.c	165;"	d	file:
+PLOTTER_OPENCLOSE_FILENAME	mod_traffic.c	163;"	d	file:
+PLOTTER_OPEN_FILENAME	mod_traffic.c	162;"	d	file:
+PLOTTER_PACKETS_FILENAME	mod_traffic.c	160;"	d	file:
+PLOTTER_PUREACKS_FILENAME	mod_traffic.c	169;"	d	file:
+PLOTTER_RTT_FILENAME	mod_traffic.c	167;"	d	file:
+PLUS	filt_parser.c	28;"	d	file:
+PORT_FILENAME	mod_traffic.c	122;"	d	file:
+ParenHostName	print.c	/^ParenHostName($/;"	f	file:
+ParenServiceName	print.c	/^ParenServiceName($/;"	f	file:
+ParseArgs	mod_collie.c	/^ParseArgs(char *argstring)$/;"	f	file:
+ParseArgs	mod_slice.c	/^ParseArgs(char *argstring)$/;"	f	file:
+ParseArgs	mod_tcplib.c	/^ParseArgs(char *argstring)$/;"	f	file:
+ParseArgs	mod_traffic.c	/^ParseArgs(char *argstring)$/;"	f	file:
+ParseArgs	tcptrace.c	/^ParseArgs($/;"	f	file:
+ParseExtendedBool	tcptrace.c	/^ParseExtendedBool($/;"	f	file:
+ParseExtendedOpt	tcptrace.c	/^ParseExtendedOpt($/;"	f	file:
+ParseExtendedVar	tcptrace.c	/^ParseExtendedVar($/;"	f	file:
+ParseFilter	filter.c	/^ParseFilter($/;"	f
+ParseOptions	trace.c	/^ParseOptions($/;"	f
+PassesFilter	filter.c	/^PassesFilter($/;"	f
+PcapSavePacket	tcpdump.c	/^PcapSavePacket($/;"	f
+PeekPacket_v7	etherpeek.c	/^typedef struct PeekPacket_v7 {$/;"	s	file:
+PeekPacket_v7	etherpeek.c	/^} PeekPacket_v7;$/;"	t	typeref:struct:PeekPacket_v7	file:
+PipeFitting	compress.c	/^PipeFitting($/;"	f	file:
+PipeHelper	compress.c	/^PipeHelper(void)$/;"	f
+PlotHist	mod_rttgraph.c	/^PlotHist($/;"	f	file:
+PlotOne	mod_rttgraph.c	/^PlotOne($/;"	f	file:
+Pool	pool.c	/^struct Pool {$/;"	s	file:
+PoolFree	pool.c	/^PoolFree($/;"	f
+PoolInsertList	pool.c	/^PoolInsertList($/;"	f	file:
+PoolMalloc	pool.c	/^PoolMalloc($/;"	f
+PoolRealloc	pool.c	/^PoolRealloc($/;"	f	file:
+PoolValloc	pool.c	/^PoolValloc($/;"	f	file:
+PortName	mod_traffic.c	/^PortName($/;"	f	file:
+PrintBrief	output.c	/^PrintBrief($/;"	f
+PrintConst	filter.c	/^PrintConst($/;"	f	file:
+PrintFilter	filter.c	/^PrintFilter($/;"	f
+PrintFilterInternal	filter.c	/^PrintFilterInternal($/;"	f	file:
+PrintLeafList	dyncounter.c	/^PrintLeafList($/;"	f	file:
+PrintRawData	print.c	/^PrintRawData($/;"	f
+PrintRawDataHex	print.c	/^PrintRawDataHex($/;"	f
+PrintSVHeader	output.c	/^PrintSVHeader($/;"	f
+PrintSeqRep	print.c	/^PrintSeqRep($/;"	f	file:
+PrintTSChain	mod_http.c	/^PrintTSChain($/;"	f	file:
+PrintTrace	output.c	/^PrintTrace($/;"	f
+PrintTree	dyncounter.c	/^static void PrintTree($/;"	f	file:
+PrintTreeRecurse	dyncounter.c	/^PrintTreeRecurse($/;"	f	file:
+PrintUDPCMsg	mod_inbounds.c	/^     PrintUDPCMsg(iucinfo *udp_conn)$/;"	f	file:
+PrintVar	filter.c	/^PrintVar($/;"	f	file:
+ProcessFile	tcptrace.c	/^ProcessFile($/;"	f	file:
+Ptr2Signed	filter.c	/^Ptr2Signed($/;"	f	file:
+Ptr2Unsigned	filter.c	/^Ptr2Unsigned($/;"	f	file:
+QuitSig	tcptrace.c	/^QuitSig($/;"	f	file:
+READ_OLD_FILES	mod_tcplib.c	78;"	d	file:
+RECORDS_FOR_ERF_CHECK	erf.c	111;"	d	file:
+REJECT	filt_scanner.c	430;"	d	file:
+REMOTE	mod_tcplib.c	/^enum t_dtype {LOCAL = 0, INCOMING = 1, OUTGOING = 2, REMOTE = 3};$/;"	e	enum:t_dtype	file:
+RESIZE_TIMES	pool.c	87;"	d	file:
+RPAREN	filt_parser.c	16;"	d	file:
+ReadOldFile	mod_tcplib.c	/^ReadOldFile($/;"	f	file:
+Real_Size_FH	etherpeek.c	140;"	d	file:
+Real_Size_FH2	etherpeek.c	141;"	d	file:
+Real_Size_FP	etherpeek.c	142;"	d	file:
+Real_Size_FP2	etherpeek.c	143;"	d	file:
+Real_Size_FP3	etherpeek.c	144;"	d	file:
+ReallocZ	tcptrace.c	/^ReallocZ($/;"	f
+RecentlyActiveConn	mod_tcplib.c	/^RecentlyActiveConn($/;"	f	file:
+RemoveConn	trace.c	/^RemoveConn($/;"	f	file:
+RemoveOldConns	trace.c	/^RemoveOldConns($/;"	f	file:
+RemoveTcpPair	trace.c	/^RemoveTcpPair($/;"	f	file:
+Res2Str	filter.c	/^Res2Str($/;"	f	file:
+RunAllFour	mod_tcplib.c	/^RunAllFour($/;"	f	file:
+SIGNED	filt_parser.c	35;"	d	file:
+SLICE_FILENAME	mod_slice.c	64;"	d	file:
+SNOOP_DL_ATM	snoop.c	91;"	d	file:
+SNOOP_DL_ETHER	snoop.c	89;"	d	file:
+SNOOP_DL_FDDI	snoop.c	90;"	d	file:
+STATS_FILENAME	mod_traffic.c	123;"	d	file:
+STRING	filt_parser.c	34;"	d	file:
+SV_HEADER1_COLUMN_COUNT	output.c	1018;"	d	file:
+SV_HEADER2_COLUMN_COUNT	output.c	1033;"	d	file:
+SV_OWIN_HEADER_COLUMN_COUNT	output.c	1045;"	d	file:
+SV_RTT_HEADER_COLUMN_COUNT	output.c	1078;"	d	file:
+SYS_STDIN	erf.c	58;"	d	file:
+SYS_STDIN	erf.c	60;"	d	file:
+SYS_STDIN	etherpeek.c	78;"	d	file:
+SYS_STDIN	etherpeek.c	80;"	d	file:
+SYS_STDIN	netm.c	76;"	d	file:
+SYS_STDIN	netm.c	78;"	d	file:
+SYS_STDIN	netscout.c	86;"	d	file:
+SYS_STDIN	netscout.c	88;"	d	file:
+SYS_STDIN	nlanr.c	105;"	d	file:
+SYS_STDIN	nlanr.c	107;"	d	file:
+SYS_STDIN	ns.c	78;"	d	file:
+SYS_STDIN	ns.c	80;"	d	file:
+SYS_STDIN	snoop.c	75;"	d	file:
+SYS_STDIN	snoop.c	77;"	d	file:
+SameConn	trace.c	/^SameConn($/;"	f
+SameEndpoints	mod_tcplib.c	/^SameEndpoints($/;"	f	file:
+SeqRep	trace.c	/^SeqRep($/;"	f	file:
+ServiceName	names.c	/^ServiceName($/;"	f
+SetCounter	dyncounter.c	/^SetCounter($/;"	f
+Size	netscout.c	/^    tt_int32	Size;$/;"	m	struct:netscout_packet_header	file:
+SnapFindHighest	avl.c	/^SnapFindHighest($/;"	f	file:
+SnapFindLowest	avl.c	/^  SnapFindLowest($/;"	f	file:
+SnapInsert	avl.c	/^SnapInsert($/;"	f
+SnapLeftGrown	avl.c	/^SnapLeftGrown($/;"	f	file:
+SnapLeftShrunk	avl.c	/^SnapLeftShrunk($/;"	f	file:
+SnapRemove	avl.c	/^SnapRemove($/;"	f
+SnapRightGrown	avl.c	/^SnapRightGrown($/;"	f	file:
+SnapRightShrunk	avl.c	/^SnapRightShrunk($/;"	f	file:
+SnapRotLeft	avl.c	/^SnapRotLeft($/;"	f	file:
+SnapRotRight	avl.c	/^SnapRotRight($/;"	f	file:
+StatLineF	output.c	/^StatLineF($/;"	f	file:
+StatLineField	output.c	/^StatLineField($/;"	f	file:
+StatLineFieldF	output.c	/^StatLineFieldF($/;"	f	file:
+StatLineFieldL	output.c	/^StatLineFieldL($/;"	f	file:
+StatLineI	output.c	91;"	d	file:
+StatLineI	output.c	96;"	d	file:
+StatLineI_L	output.c	/^StatLineI_L($/;"	f	file:
+StatLineI_LL	output.c	/^StatLineI_LL($/;"	f	file:
+StatLineOne	output.c	/^StatLineOne($/;"	f	file:
+StatLineP	output.c	/^StatLineP($/;"	f	file:
+Stdev	output.c	/^Stdev($/;"	f	file:
+StoreCounters	mod_tcplib.c	/^StoreCounters($/;"	f	file:
+StringToArgv	tcptrace.c	/^StringToArgv($/;"	f
+SynCount	output.c	/^SynCount($/;"	f
+TCB_CACHE_A2B	mod_inbounds.c	160;"	d	file:
+TCB_CACHE_A2B	mod_tcplib.c	163;"	d	file:
+TCB_CACHE_B2A	mod_inbounds.c	161;"	d	file:
+TCB_CACHE_B2A	mod_tcplib.c	164;"	d	file:
+TCPInteractivity	mod_inbounds.c	/^     TCPInteractivity($/;"	f	file:
+TIMES	filt_parser.c	30;"	d	file:
+TSGPlotName	plotter.c	/^TSGPlotName($/;"	f	file:
+TSH_DUMP_OFFSET	nlanr.c	111;"	d	file:
+TYPE_AAL5	erf.c	68;"	d	file:
+TYPE_ATM	erf.c	67;"	d	file:
+TYPE_ETH	erf.c	66;"	d	file:
+TYPE_HDLC_POS	erf.c	65;"	d	file:
+TYPE_LEGACY	erf.c	64;"	d	file:
+TestIncoming	mod_tcplib.c	/^TestIncoming($/;"	f	file:
+TestLocal	mod_tcplib.c	/^TestLocal($/;"	f	file:
+TestOutgoing	mod_tcplib.c	/^TestOutgoing($/;"	f	file:
+TestRemote	mod_tcplib.c	/^TestRemote($/;"	f	file:
+TrackEndpoints	mod_tcplib.c	/^TrackEndpoints($/;"	f	file:
+UDPFormatBrief	output.c	/^UDPFormatBrief($/;"	f	file:
+UDPHDR_LEN	mod_inbounds.c	163;"	d	file:
+UDPInteractivity	mod_inbounds.c	/^     UDPInteractivity($/;"	f	file:
+UDPPrintBrief	output.c	/^UDPPrintBrief($/;"	f
+UDPPrintTrace	output.c	/^UDPPrintTrace($/;"	f
+UDP_A2B	mod_inbounds.c	164;"	d	file:
+UDP_B2A	mod_inbounds.c	165;"	d	file:
+UNSIGNED	filt_parser.c	36;"	d	file:
+UpdateConnList	trace.c	/^UpdateConnList($/;"	f	file:
+UpdateConnLists	trace.c	/^UpdateConnLists($/;"	f	file:
+Usage	tcptrace.c	/^Usage(void)$/;"	f	file:
+UsageModules	tcptrace.c	/^UsageModules(void)$/;"	f	file:
+VARIABLE	filt_parser.c	33;"	d	file:
+VERSION_5	etherpeek.c	150;"	d	file:
+VERSION_6	etherpeek.c	149;"	d	file:
+VERSION_7	etherpeek.c	148;"	d	file:
+VFuncClntTput	filter.c	/^VFuncClntTput($/;"	f
+VFuncServTput	filter.c	/^VFuncServTput($/;"	f
+VFuncTput	filter.c	/^VFuncTput($/;"	f	file:
+Var2Ipaddr	filter.c	/^Var2Ipaddr($/;"	f	file:
+Var2Signed	filter.c	/^Var2Signed($/;"	f	file:
+Var2String	filter.c	/^Var2String($/;"	f	file:
+Var2Unsigned	filter.c	/^Var2Unsigned($/;"	f	file:
+Vartype2BStr	filter.c	/^Vartype2BStr($/;"	f
+Vartype2Str	filter.c	/^Vartype2Str($/;"	f
+VerifyClosedConnInt	tcptrace.c	/^VerifyClosedConnInt($/;"	f	file:
+VerifyLiveConnInt	tcptrace.c	/^VerifyLiveConnInt($/;"	f	file:
+VerifyMaxConnNum	tcptrace.c	/^VerifyMaxConnNum($/;"	f	file:
+VerifyNonrealLiveConnInt	tcptrace.c	/^  VerifyNonrealLiveConnInt($/;"	f	file:
+VerifyPositive	tcptrace.c	/^VerifyPositive($/;"	f	file:
+VerifyUpdateInt	tcptrace.c	/^VerifyUpdateInt($/;"	f	file:
+Version	tcptrace.c	/^Version(void)$/;"	f	file:
+WhenAcked	mod_http.c	/^WhenAcked($/;"	f	file:
+WhenSent	mod_http.c	/^WhenSent($/;"	f	file:
+WhichDir	trace.c	/^  WhichDir($/;"	f
+WhichFormat	compress.c	/^WhichFormat($/;"	f	file:
+WritePlotHeader	plotter.c	/^WritePlotHeader($/;"	f	file:
+YYABORT	filt_parser.c	351;"	d	file:
+YYACCEPT	filt_parser.c	350;"	d	file:
+YYBACKUP	filt_parser.c	359;"	d	file:
+YYBISON	filt_parser.c	5;"	d	file:
+YYDEBUG	filt_parser.c	103;"	d	file:
+YYEMPTY	filt_parser.c	348;"	d	file:
+YYEOF	filt_parser.c	349;"	d	file:
+YYERRCODE	filt_parser.c	372;"	d	file:
+YYERROR	filt_parser.c	352;"	d	file:
+YYFAIL	filt_parser.c	357;"	d	file:
+YYFINAL	filt_parser.c	127;"	d	file:
+YYFLAG	filt_parser.c	128;"	d	file:
+YYINITDEPTH	filt_parser.c	419;"	d	file:
+YYLAST	filt_parser.c	240;"	d	file:
+YYLEX	filt_parser.c	375;"	d	file:
+YYLEX	filt_parser.c	381;"	d	file:
+YYLEX	filt_parser.c	383;"	d	file:
+YYLEX	filt_parser.c	387;"	d	file:
+YYLEX	filt_parser.c	389;"	d	file:
+YYMAXDEPTH	filt_parser.c	426;"	d	file:
+YYMAXDEPTH	filt_parser.c	430;"	d	file:
+YYNTBASE	filt_parser.c	129;"	d	file:
+YYPARSE_PARAM_ARG	filt_parser.c	487;"	d	file:
+YYPARSE_PARAM_ARG	filt_parser.c	490;"	d	file:
+YYPARSE_PARAM_ARG	filt_parser.c	494;"	d	file:
+YYPARSE_PARAM_DECL	filt_parser.c	488;"	d	file:
+YYPARSE_PARAM_DECL	filt_parser.c	491;"	d	file:
+YYPARSE_PARAM_DECL	filt_parser.c	495;"	d	file:
+YYPOPSTACK	filt_parser.c	529;"	d	file:
+YYRECOVERING	filt_parser.c	358;"	d	file:
+YYSTACK_ALLOC	filt_parser.c	337;"	d	file:
+YYSTACK_ALLOC	filt_parser.c	339;"	d	file:
+YYSTACK_USE_ALLOCA	filt_parser.c	296;"	d	file:
+YYSTACK_USE_ALLOCA	filt_parser.c	299;"	d	file:
+YYSTACK_USE_ALLOCA	filt_parser.c	303;"	d	file:
+YYSTACK_USE_ALLOCA	filt_parser.c	320;"	d	file:
+YYSTATE	filt_scanner.c	104;"	d	file:
+YYSTYPE	filt_parser.c	/^} YYSTYPE;$/;"	t	typeref:union:__anon3	file:
+YYTERROR	filt_parser.c	371;"	d	file:
+YYTRANSLATE	filt_parser.c	131;"	d	file:
+YY_AT_BOL	filt_scanner.c	280;"	d	file:
+YY_BREAK	filt_scanner.c	646;"	d	file:
+YY_BUFFER_EOF_PENDING	filt_scanner.c	216;"	d	file:
+YY_BUFFER_NEW	filt_scanner.c	204;"	d	file:
+YY_BUFFER_NORMAL	filt_scanner.c	205;"	d	file:
+YY_BUFFER_STATE	filt_scanner.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	filt_scanner.c	115;"	d	file:
+YY_CHAR	filt_scanner.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	filt_scanner.c	225;"	d	file:
+YY_DECL	filt_scanner.c	634;"	d	file:
+YY_DO_BEFORE_ACTION	filt_scanner.c	296;"	d	file:
+YY_END_OF_BUFFER	filt_scanner.c	304;"	d	file:
+YY_END_OF_BUFFER_CHAR	filt_scanner.c	112;"	d	file:
+YY_EXIT_FAILURE	filt_scanner.c	1726;"	d	file:
+YY_FATAL_ERROR	filt_scanner.c	627;"	d	file:
+YY_FLEX_MAJOR_VERSION	filt_scanner.c	26;"	d	file:
+YY_FLEX_MINOR_VERSION	filt_scanner.c	27;"	d	file:
+YY_FLUSH_BUFFER	filt_scanner.c	254;"	d	file:
+YY_INPUT	filt_scanner.c	502;"	d	file:
+YY_INPUT	filt_scanner.c	594;"	d	file:
+YY_MORE_ADJ	filt_scanner.c	432;"	d	file:
+YY_NEW_FILE	filt_scanner.c	110;"	d	file:
+YY_NO_POP_STATE	filt_scanner.c	557;"	d	file:
+YY_NO_PUSH_STATE	filt_scanner.c	556;"	d	file:
+YY_NO_TOP_STATE	filt_scanner.c	558;"	d	file:
+YY_NULL	filt_scanner.c	84;"	d	file:
+YY_NUM_RULES	filt_scanner.c	303;"	d	file:
+YY_PROTO	filt_scanner.c	78;"	d	file:
+YY_PROTO	filt_scanner.c	80;"	d	file:
+YY_READ_BUF_SIZE	filt_scanner.c	578;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	filt_scanner.c	433;"	d	file:
+YY_RULE_SETUP	filt_scanner.c	649;"	d	file:
+YY_SC_TO_UI	filt_scanner.c	91;"	d	file:
+YY_START	filt_scanner.c	103;"	d	file:
+YY_START_STACK_INCR	filt_scanner.c	622;"	d	file:
+YY_STATE_EOF	filt_scanner.c	107;"	d	file:
+YY_USER_ACTION	filt_scanner.c	641;"	d	file:
+YY_USE_CONST	filt_scanner.c	49;"	d	file:
+YY_USE_CONST	filt_scanner.c	56;"	d	file:
+YY_USE_CONST	filt_scanner.c	66;"	d	file:
+YY_USE_PROTOS	filt_scanner.c	46;"	d	file:
+YY_USE_PROTOS	filt_scanner.c	55;"	d	file:
+YY_USE_PROTOS	filt_scanner.c	67;"	d	file:
+_BASIC_POOL_H	pool.c	71;"	d	file:
+__cplusplus	filt_scanner.c	35;"	d	file:
+__yy_memcpy	filt_parser.c	/^__yy_memcpy (char *to, char *from, unsigned int count)$/;"	f	file:
+__yy_memcpy	filt_parser.c	/^__yy_memcpy (to, from, count)$/;"	f	file:
+__yy_memcpy	filt_parser.c	439;"	d	file:
+a2b	mod_rttgraph.c	/^    struct rtt_tcb a2b;$/;"	m	struct:rttgraph_info	typeref:struct:rttgraph_info::rtt_tcb	file:
+a2b_seg_color	trace.c	/^char *a2b_seg_color     = "green";     \/* colors for segments on the time line chart *\/$/;"	v
+a2qIdle	mod_inbounds.c	/^     timeval a2qIdle;$/;"	m	struct:inbounds_tcp_conn_info	file:
+a2qIdle	mod_inbounds.c	/^     timeval a2qIdle;$/;"	m	struct:inbounds_udp_conn_info	file:
+aNum	mod_inbounds.c	/^     u_int aNum;$/;"	m	struct:inbounds_tcp_conn_info	file:
+aNum	mod_inbounds.c	/^     u_int aNum;$/;"	m	struct:inbounds_udp_conn_info	file:
+aSum	mod_inbounds.c	/^     u_long aSum;$/;"	m	struct:inbounds_tcp_conn_info	file:
+aSum	mod_inbounds.c	/^     u_long aSum;$/;"	m	struct:inbounds_udp_conn_info	file:
+a_byte	mod_inbounds.c	/^     u_long a_byte;	\/* number of bytes from a to b within $/;"	m	struct:inbounds_tcp_conn_info	file:
+a_byte	mod_inbounds.c	/^     u_long a_byte; \/* number of bytes from a to b within$/;"	m	struct:inbounds_udp_conn_info	file:
+a_pkt	mod_inbounds.c	/^     u_long a_pkt;	\/* number of packets from a to b within$/;"	m	struct:inbounds_tcp_conn_info	file:
+a_pkt	mod_inbounds.c	/^     u_long a_pkt;  \/* number of packets from a to b within$/;"	m	struct:inbounds_udp_conn_info	file:
+ack_color	trace.c	/^char *ack_color		= "green";$/;"	v
+ack_head	mod_http.c	/^    struct time_stamp ack_head;$/;"	m	struct:http_info	typeref:struct:http_info::time_stamp	file:
+ack_in	rexmit.c	/^ack_in (tcb * ptcb,$/;"	f
+ack_tail	mod_http.c	/^    struct time_stamp ack_tail;$/;"	m	struct:http_info	typeref:struct:http_info::time_stamp	file:
+ack_time	mod_http.c	/^    timeval ack_time;		\/* when CLIENT acked CONTENT *\/$/;"	m	struct:get_info	file:
+ackdongle_ambig_color	trace.c	/^char *ackdongle_ambig_color	= "red";$/;"	v
+ackdongle_nosample_color	trace.c	/^char *ackdongle_nosample_color	= "blue";$/;"	v
+active_conn_count	trace.c	/^static int active_conn_count = 0;$/;"	v	file:
+addr_pair	mod_inbounds.c	/^     tcp_pair_addrblock	addr_pair;$/;"	m	struct:inbounds_tcp_conn_info	file:
+addr_pair	mod_inbounds.c	/^     udp_pair_addrblock addr_pair;$/;"	m	struct:inbounds_udp_conn_info	file:
+addr_pair	mod_realtime.c	/^  tcp_pair_addrblock	addr_pair;$/;"	m	struct:realtime_conn_info	file:
+addr_pair	mod_tcplib.c	/^    tcp_pair_addrblock	addr_pair;$/;"	m	struct:endpoint_pair	file:
+addr_pair	mod_tcplib.c	/^    tcp_pair_addrblock	addr_pair;$/;"	m	struct:module_conninfo	file:
+addseg	rexmit.c	/^addseg (tcb * ptcb,$/;"	f	file:
+age_interval	mod_traffic.c	/^static float age_interval = 15.0;  \/* 15 seconds by default *\/$/;"	v	file:
+alloca	filt_parser.c	300;"	d	file:
+atm	erf.c	/^        atm_rec_t	atm;$/;"	m	union:erf_record::__anon2	file:
+atm_rec	erf.c	/^typedef struct atm_rec {$/;"	s	file:
+atm_rec_t	erf.c	/^} atm_rec_t;$/;"	t	typeref:struct:atm_rec	file:
+axis_switched	plotter.c	/^    Bool axis_switched;         \/* Switch x & y axis types.$/;"	m	struct:plotter_info	file:
+b2a	mod_rttgraph.c	/^    struct rtt_tcb b2a;$/;"	m	struct:rttgraph_info	typeref:struct:rttgraph_info::rtt_tcb	file:
+b2a_seg_color	trace.c	/^char *b2a_seg_color     = "yellow"; $/;"	v
+b_byte	mod_inbounds.c	/^     u_long b_byte;$/;"	m	struct:inbounds_tcp_conn_info	file:
+b_byte	mod_inbounds.c	/^     u_long b_byte;$/;"	m	struct:inbounds_udp_conn_info	file:
+b_pkt	mod_inbounds.c	/^     u_long b_pkt; $/;"	m	struct:inbounds_tcp_conn_info	file:
+b_pkt	mod_inbounds.c	/^     u_long b_pkt;$/;"	m	struct:inbounds_udp_conn_info	file:
+bad_ip_checksums	tcptrace.c	/^u_long bad_ip_checksums = 0;$/;"	v
+bad_tcp_checksums	tcptrace.c	/^u_long bad_tcp_checksums = 0;$/;"	v
+bad_udp_checksums	tcptrace.c	/^u_long bad_udp_checksums = 0;$/;"	v
+bcopy	gcache.c	76;"	d	file:
+beginpnum	tcptrace.c	/^u_long beginpnum = 0;$/;"	v
+blen	snoop.c	/^    tt_uint32	blen;$/;"	m	struct:snoop_packet_header	file:
+block_no	pool.c	/^  unsigned int	block_no;	\/* number of block in the pool *\/$/;"	m	struct:Pool	file:
+block_size	pool.c	/^  unsigned int	block_size;	\/* size of a memory block *\/$/;"	m	struct:Pool	file:
+bool	filt_parser.c	/^    Bool bool;$/;"	m	union:__anon3	file:
+bool_default	tcptrace.c	/^    Bool bool_default;$/;"	m	struct:ext_bool_op	file:
+bool_descr	tcptrace.c	/^    char *bool_descr;$/;"	m	struct:ext_bool_op	file:
+bool_optname	tcptrace.c	/^    char *bool_optname;$/;"	m	struct:ext_bool_op	file:
+bool_popt	tcptrace.c	/^    Bool *bool_popt;$/;"	m	struct:ext_bool_op	file:
+bottom_letters	trace.c	/^static Bool bottom_letters = 0;	\/* I don't use this anymore *\/$/;"	v	file:
+breakdown_hash_char	mod_tcplib.c	/^static const char breakdown_hash_char[] = { 'S', 'N', 'T', 'F', 'H', 'f'};$/;"	v	file:
+breakdown_type	mod_tcplib.c	/^static int breakdown_type($/;"	f	file:
+btype	mod_tcplib.c	/^    short btype;$/;"	m	struct:module_conninfo	file:
+buckets	mod_rttgraph.c	/^    u_long *buckets;$/;"	m	struct:hist	file:
+buf	dstring.c	/^    char *buf;$/;"	m	struct:dstring	file:
+buflen	dstring.c	/^    int buflen;$/;"	m	struct:dstring	file:
+built_bywhom	version.c	/^char *built_bywhom = BUILT_USER;$/;"	v
+built_when	version.c	/^char *built_when = BUILT_DATE;$/;"	v
+built_where	version.c	/^char *built_where = BUILT_HOST;$/;"	v
+burst_bytes	mod_inbounds.c	/^     u_long burst_bytes;$/;"	m	struct:inbounds_tcp_conn_info	file:
+burst_bytes	mod_tcplib.c	/^    u_long	burst_bytes;	\/* size of the current burst *\/$/;"	m	struct:module_conninfo_tcb	file:
+burstdata	mod_tcplib.c	/^struct burstdata {$/;"	s	file:
+burstkey	mod_tcplib.c	/^struct burstkey {$/;"	s	file:
+bzero	gcache.c	73;"	d	file:
+c_fin_time	mod_http.c	/^    timeval c_fin_time;		\/* when CLIENT sent FIN *\/$/;"	m	struct:http_info	file:
+c_syn_time	mod_http.c	/^    timeval c_syn_time;		\/* when CLIENT sent SYN *\/$/;"	m	struct:http_info	file:
+ca_enabled	gcache.c	/^static int ca_enabled;$/;"	v	file:
+cacheblk	gcache.c	/^struct cacheblk {$/;"	s	file:
+cacheentry	gcache.c	/^struct cacheentry {$/;"	s	file:
+caclear	gcache.c	/^caclear($/;"	f	file:
+cacreate	gcache.c	/^cacreate($/;"	f
+cadeleteold	gcache.c	/^cadeleteold($/;"	f	file:
+cadestroy	gcache.c	/^cadestroy($/;"	f
+cadump	gcache.c	/^cadump(void)$/;"	f
+cafreemem	gcache.c	/^cafreemem($/;"	f	file:
+cagetfree	gcache.c	/^cagetfree($/;"	f	file:
+cagetindex	gcache.c	/^cagetindex($/;"	f	file:
+cagetmem	gcache.c	/^cagetmem($/;"	f	file:
+cahash	gcache.c	/^cahash($/;"	f	file:
+cainit	gcache.c	/^cainit(void)$/;"	f
+cainsert	gcache.c	/^cainsert($/;"	f
+caisold	gcache.c	/^caisold($/;"	f	file:
+callback	tcpdump.c	/^static int callback($/;"	f	file:
+callback_phdr	tcpdump.c	/^static struct pcap_pkthdr *callback_phdr;$/;"	v	typeref:struct:pcap_pkthdr	file:
+callback_plast	tcpdump.c	/^static void *callback_plast;$/;"	v	file:
+calookup	gcache.c	/^calookup($/;"	f
+capurge	gcache.c	/^capurge($/;"	f
+caremove	gcache.c	/^caremove($/;"	f
+casetsize	gcache.c	/^casetsize($/;"	f	file:
+catab	gcache.c	/^static struct cacheblk catab[CA_NUMCACHES];$/;"	v	typeref:struct:cacheblk	file:
+caunlink	gcache.c	/^caunlink($/;"	f	file:
+cb_cache	gcache.c	/^    struct cacheentry *cb_cache;	\/* free nodes for the cache	*\/$/;"	m	struct:cacheblk	typeref:struct:cacheblk::cacheentry	file:
+cb_freelist	gcache.c	/^    tceix		cb_freelist;	\/* list of free cacheentries	*\/$/;"	m	struct:cacheblk	file:
+cb_fulls	gcache.c	/^    u_int		cb_fulls;	\/* # removed, full table	*\/$/;"	m	struct:cacheblk	file:
+cb_hash	gcache.c	/^    struct hashentry *cb_hash;		\/* the hash table		*\/$/;"	m	struct:cacheblk	typeref:struct:cacheblk::hashentry	file:
+cb_hashsize	gcache.c	/^    u_short		cb_hashsize;	\/* size of hash table		*\/$/;"	m	struct:cacheblk	file:
+cb_hits	gcache.c	/^    u_int		cb_hits;	\/* # hits			*\/$/;"	m	struct:cacheblk	file:
+cb_lookups	gcache.c	/^    u_int		cb_lookups;	\/* # lookups			*\/$/;"	m	struct:cacheblk	file:
+cb_maxent	gcache.c	/^    u_short		cb_maxent;	\/* maximum entries		*\/$/;"	m	struct:cacheblk	file:
+cb_maxlife	gcache.c	/^    u_int		cb_maxlife;	\/* max life of an entry (secs)	*\/$/;"	m	struct:cacheblk	file:
+cb_name	gcache.c	/^    char		cb_name[CA_NAMELEN]; \/* name of the cache	*\/$/;"	m	struct:cacheblk	file:
+cb_nument	gcache.c	/^    u_short		cb_nument;	\/* number of entries		*\/$/;"	m	struct:cacheblk	file:
+cb_status	gcache.c	/^    cb_status	cb_status;		\/* INUSE or FREE		*\/$/;"	m	struct:cacheblk	file:
+cb_status	gcache.c	/^enum cb_status { CB_INUSE=1, CB_FREE=2};$/;"	g	file:
+cb_status	gcache.c	/^typedef enum cb_status cb_status;$/;"	t	typeref:enum:cb_status	file:
+cb_tos	gcache.c	/^    u_int		cb_tos;		\/* # timed out entries		*\/$/;"	m	struct:cacheblk	file:
+ce_hash	gcache.c	/^    thval		ce_hash;	\/* value that was hashed in	*\/$/;"	m	struct:cacheentry	file:
+ce_keylen	gcache.c	/^    tcelen		ce_keylen;	\/* length of the key		*\/$/;"	m	struct:cacheentry	file:
+ce_keyptr	gcache.c	/^    char		*ce_keyptr;	\/* pointer to the key		*\/$/;"	m	struct:cacheentry	file:
+ce_next	gcache.c	/^    tceix		ce_next;	\/* prev entry on list		*\/$/;"	m	struct:cacheentry	file:
+ce_prev	gcache.c	/^    tceix		ce_prev;	\/* next entry on list		*\/$/;"	m	struct:cacheentry	file:
+ce_reslen	gcache.c	/^    tcelen		ce_reslen;	\/* length of the result		*\/$/;"	m	struct:cacheentry	file:
+ce_resptr	gcache.c	/^    char		*ce_resptr;	\/* pointer to the result	*\/$/;"	m	struct:cacheentry	file:
+ce_status	gcache.c	/^    ce_status		ce_status;	\/* INUSE or FREE		*\/$/;"	m	struct:cacheentry	file:
+ce_status	gcache.c	/^enum ce_status {CE_INUSE=11, CE_FREE=12};$/;"	g	file:
+ce_status	gcache.c	/^typedef enum ce_status ce_status;$/;"	t	typeref:enum:ce_status	file:
+ce_tsaccess	gcache.c	/^    ttstamp		ce_tsaccess;	\/* timestamp - last access	*\/$/;"	m	struct:cacheentry	file:
+ce_tsinsert	gcache.c	/^    ttstamp		ce_tsinsert;	\/* timestamp - time inserted	*\/$/;"	m	struct:cacheentry	file:
+check_hw_dups	trace.c	/^check_hw_dups($/;"	f	file:
+child_pid	compress.c	/^static int child_pid = -1;$/;"	v	file:
+cksum	trace.c	/^cksum($/;"	f	file:
+client_head	mod_http.c	/^} *client_head = NULL;$/;"	v	typeref:struct:client_info	file:
+client_info	mod_http.c	/^static struct client_info {$/;"	s	file:
+clientname	mod_http.c	/^    char *clientname;$/;"	m	struct:client_info	file:
+closed	mod_inbounds.c	/^     Bool closed; \/\/ has the connection been closed ?$/;"	m	struct:inbounds_tcp_conn_info	file:
+closed	mod_inbounds.c	/^     Bool closed; \/\/ has the connection been closed ?$/;"	m	struct:inbounds_udp_conn_info	file:
+closed_conn_count	trace.c	/^static int closed_conn_count = 0;$/;"	v	file:
+closed_conn_interval_st	tcptrace.c	/^static char *closed_conn_interval_st = NULL;$/;"	v	file:
+closed_conn_list_head	trace.c	/^static ptp_ptr	*closed_conn_list_head = NULL;$/;"	v	file:
+closed_conn_list_tail	trace.c	/^static ptp_ptr	*closed_conn_list_tail = NULL;$/;"	v	file:
+collapse_quad	rexmit.c	/^collapse_quad (quadrant * pquad)$/;"	f	file:
+collie_date	mod_collie.c	/^collie_date($/;"	f	file:
+collie_done	mod_collie.c	/^collie_done(void)$/;"	f
+collie_dots	mod_collie.c	/^static char *collie_dots($/;"	f	file:
+collie_filename	mod_collie.c	/^static char *collie_filename = NULL;$/;"	v	file:
+collie_init	mod_collie.c	/^collie_init($/;"	f
+collie_name	mod_collie.c	/^static char *collie_name($/;"	f	file:
+collie_newconn	mod_collie.c	/^collie_newconn($/;"	f
+collie_newfile	mod_collie.c	/^collie_newfile($/;"	f
+collie_newudpconn	mod_collie.c	/^collie_newudpconn($/;"	f
+collie_time	mod_collie.c	/^collie_time($/;"	f	file:
+collie_usage	mod_collie.c	/^collie_usage(void)$/;"	f
+color	mod_traffic.c	/^    char *color;$/;"	m	struct:traffic_info	file:
+color	plotter.c	/^    char *color;$/;"	m	struct:pl_line	file:
+colorplot	tcptrace.c	/^Bool colorplot = TRUE;$/;"	v
+comment	tcptrace.c	/^char *comment;$/;"	v
+conn_head	mod_realtime.c	/^  rtconn         *conn_head;		\/* head of the list of tcp connections *\/$/;"	m	struct:realtime_info	file:
+conn_info	mod_collie.c	/^struct conn_info {$/;"	s	file:
+conn_info	mod_slice.c	/^struct conn_info {$/;"	s	file:
+conn_info	mod_traffic.c	/^struct conn_info {$/;"	s	file:
+conn_num_threshold	tcptrace.c	/^Bool conn_num_threshold = FALSE;$/;"	v
+conn_tail	mod_realtime.c	/^  rtconn         *conn_tail;		\/* tail of the list of tcp connections *\/$/;"	m	struct:realtime_info	file:
+connhead	mod_collie.c	/^static struct conn_info *connhead = NULL;$/;"	v	typeref:struct:conn_info	file:
+connhead	mod_traffic.c	/^static struct conn_info *connhead = NULL;$/;"	v	typeref:struct:conn_info	file:
+conntype_counter	mod_tcplib.c	/^static u_long conntype_counter[NUM_DIRECTION_TYPES];$/;"	v	file:
+conntype_duplex_counter	mod_tcplib.c	/^static u_long conntype_duplex_counter[NUM_DIRECTION_TYPES];$/;"	v	file:
+conntype_nodata_counter	mod_tcplib.c	/^static u_long conntype_nodata_counter[NUM_DIRECTION_TYPES];$/;"	v	file:
+conntype_noplex_counter	mod_tcplib.c	/^static u_long conntype_noplex_counter[NUM_DIRECTION_TYPES];$/;"	v	file:
+conntype_uni_counter	mod_tcplib.c	/^static u_long conntype_uni_counter[NUM_DIRECTION_TYPES];$/;"	v	file:
+const	filt_parser.c	121;"	d	file:
+content_length	mod_http.c	/^    unsigned content_length;	\/* as reported by server *\/$/;"	m	struct:get_info	file:
+content_type	mod_http.c	/^    char *content_type;         \/* MIME type *\/  $/;"	m	struct:get_info	file:
+conv_duration	mod_tcplib.c	/^    dyn_counter conv_duration;$/;"	m	struct:tcplibstats	file:
+conv_interarrival_all	mod_tcplib.c	/^    dyn_counter conv_interarrival_all;$/;"	m	struct:tcplibstats	file:
+conv_interarrival_byapp	mod_tcplib.c	/^    dyn_counter conv_interarrival_byapp[NUM_APPS];$/;"	m	struct:tcplibstats	file:
+copyright	avl.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	compress.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	dyncounter.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	erf.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	etherpeek.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	filter.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	gcache.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	ipv6.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	mfiles.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	names.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	netm.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	netscout.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	nlanr.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	ns.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	output.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	plotter.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	pool.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	poolaccess.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	print.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	rexmit.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	snoop.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	tcpdump.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	tcptrace.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	thruput.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	trace.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+copyright	udp.c	/^static char const GCC_UNUSED copyright[] =$/;"	v	file:
+count	mod_inbounds.c	/^     u_llong count;$/;"	m	struct:protocol	file:
+count	mod_realtime.c	/^  u_llong count;$/;"	m	struct:protocol	file:
+counted	mod_tcplib.c	/^    Bool	counted[NUM_DIRECTION_TYPES];$/;"	m	struct:parallelism	file:
+create_quadrant	rexmit.c	/^create_quadrant (void)$/;"	f	file:
+create_seg	rexmit.c	/^create_seg (seqnum seq,$/;"	f	file:
+csv	tcptrace.c	/^Bool csv = FALSE;$/;"	v
+ctrunc	tcptrace.c	/^u_long ctrunc = 0;$/;"	v
+cur_filename	tcptrace.c	/^char *cur_filename;$/;"	v
+current_file	mod_tcplib.c	/^static char *current_file = NULL;$/;"	v	file:
+current_time	tcptrace.c	/^struct timeval current_time;$/;"	v	typeref:struct:timeval
+data_bytes	mod_tcplib.c	/^    u_llong	data_bytes;$/;"	m	struct:module_conninfo_tcb	file:
+data_color	trace.c	/^char *data_color	= "white";$/;"	v
+data_head	mod_http.c	/^    struct time_stamp data_head;$/;"	m	struct:http_info	typeref:struct:http_info::time_stamp	file:
+data_nbytes_all	mod_traffic.c	/^static u_llong data_nbytes_all;$/;"	v	file:
+data_nbytes_nonrexmit	mod_traffic.c	/^static u_llong data_nbytes_nonrexmit;$/;"	v	file:
+data_tail	mod_http.c	/^    struct time_stamp data_tail;$/;"	m	struct:http_info	typeref:struct:http_info::time_stamp	file:
+debug	tcptrace.c	/^int debug = 0;$/;"	v
+debug_http_groups	mod_tcplib.c	/^static u_long debug_http_groups;$/;"	v	file:
+debug_http_nonpersistant	mod_tcplib.c	/^static u_long debug_http_nonpersistant;$/;"	v	file:
+debug_http_parallel	mod_tcplib.c	/^static u_long debug_http_parallel; \/* parallel HTTP, not counted in breakdown\/conv *\/$/;"	v	file:
+debug_http_persistant	mod_tcplib.c	/^static u_long debug_http_persistant;$/;"	v	file:
+debug_http_single	mod_tcplib.c	/^static u_long debug_http_single;$/;"	v	file:
+debug_http_slaves	mod_tcplib.c	/^static u_long debug_http_slaves;$/;"	v	file:
+debug_http_total	mod_tcplib.c	/^static u_long debug_http_total; \/* all HTTP conns *\/$/;"	v	file:
+debug_http_uni_bytes	mod_tcplib.c	/^static u_llong debug_http_uni_bytes; \/* data in at most one direction, ignored *\/$/;"	v	file:
+debug_http_uni_conns	mod_tcplib.c	/^static u_long debug_http_uni_conns; \/* data in at most one direction, ignored *\/$/;"	v	file:
+debug_newconn_badport	mod_tcplib.c	/^static u_long debug_newconn_badport;	\/* a port we don't want *\/$/;"	v	file:
+debug_newconn_counter	mod_tcplib.c	/^static u_long debug_newconn_counter;	\/* total conns *\/$/;"	v	file:
+debug_newconn_ftp_data_heuristic	mod_tcplib.c	/^static u_long debug_newconn_ftp_data_heuristic; \/* merely ASSUMED to be ftp data *\/$/;"	v	file:
+debug_newconn_goodport	mod_tcplib.c	/^static u_long debug_newconn_goodport;	\/* we want the port *\/$/;"	v	file:
+debug_total_bytes	mod_tcplib.c	/^static u_llong debug_total_bytes; \/* total "bytes" accepted *\/$/;"	v	file:
+default_color	trace.c	/^char *default_color	= "white";$/;"	v
+depth	dyncounter.c	/^    u_long depth;		\/* 1, 10, 100, 1000 ... 10,000,000 *\/$/;"	m	struct:node	file:
+destNum	etherpeek.c	/^    tt_uint16 destNum;		\/* str corresponding to ether address*\/$/;"	m	struct:EPFilePacket3_v5_6	file:
+dir	mod_inbounds.c	/^     Bool dir;	\/* 0 - question, 1 - answer *\/$/;"	m	struct:inbounds_tcp_conn_info	file:
+dir	mod_inbounds.c	/^     Bool dir;    \/* 0 - question, 1 - answer *\/$/;"	m	struct:inbounds_udp_conn_info	file:
+do_all_conv_arrivals	mod_tcplib.c	/^void do_all_conv_arrivals()$/;"	f
+do_all_final_breakdowns	mod_tcplib.c	/^static void do_all_final_breakdowns(void)$/;"	f	file:
+do_final_breakdown	mod_tcplib.c	/^static void do_final_breakdown($/;"	f	file:
+do_tcplib_conv_duration	mod_tcplib.c	/^do_tcplib_conv_duration($/;"	f	file:
+do_tcplib_final_converse	mod_tcplib.c	/^do_tcplib_final_converse($/;"	f	file:
+do_tcplib_next_converse	mod_tcplib.c	/^static void do_tcplib_next_converse($/;"	f	file:
+do_tcplib_next_duration	mod_tcplib.c	/^static void do_tcplib_next_duration($/;"	f	file:
+do_udp	tcptrace.c	/^Bool do_udp = FALSE;$/;"	v
+docadebug	gcache.c	/^static int docadebug = 0;$/;"	v	file:
+docaerror	gcache.c	/^static int docaerror = 1;$/;"	v	file:
+docheck_hw_dups	tcptrace.c	/^Bool docheck_hw_dups = TRUE;$/;"	v
+dointer_cnt	mod_inbounds.c	/^static int dointer_cnt=0;$/;"	v	file:
+doplot_active	mod_traffic.c	/^static Bool doplot_active = FALSE;$/;"	v	file:
+doplot_bytes	mod_traffic.c	/^static Bool doplot_bytes = FALSE;$/;"	v	file:
+doplot_data	mod_traffic.c	/^static Bool doplot_data = FALSE;$/;"	v	file:
+doplot_halfopen	mod_traffic.c	/^static Bool doplot_halfopen = FALSE;$/;"	v	file:
+doplot_i_open	mod_traffic.c	/^static Bool doplot_i_open = FALSE;$/;"	v	file:
+doplot_idle	mod_traffic.c	/^static Bool doplot_idle = FALSE;$/;"	v	file:
+doplot_long	mod_traffic.c	/^static Bool doplot_long = FALSE;$/;"	v	file:
+doplot_loss	mod_traffic.c	/^static Bool doplot_loss = FALSE;$/;"	v	file:
+doplot_open	mod_traffic.c	/^static Bool doplot_open = FALSE;$/;"	v	file:
+doplot_openclose	mod_traffic.c	/^static Bool doplot_openclose = FALSE;$/;"	v	file:
+doplot_packets	mod_traffic.c	/^static Bool doplot_packets = FALSE;$/;"	v	file:
+doplot_pureacks	mod_traffic.c	/^static Bool doplot_pureacks = FALSE;$/;"	v	file:
+doplot_rtt	mod_traffic.c	/^static Bool doplot_rtt = FALSE;$/;"	v	file:
+dotrace	trace.c	/^dotrace($/;"	f
+down	dyncounter.c	/^	struct node *down[CARDINALITY];	\/* if depth != 1 *\/$/;"	m	union:node::__anon1	typeref:struct:node::__anon1::node	file:
+dst	erf.c	/^    unsigned char	dst[6];$/;"	m	struct:eth_rec	file:
+dstring	dstring.c	/^struct dstring {$/;"	s	file:
+dtype	mod_tcplib.c	/^    enum t_dtype dtype;$/;"	m	struct:module_conninfo_tcb	typeref:enum:module_conninfo_tcb::t_dtype	file:
+dtype_names	mod_tcplib.c	/^static char *dtype_names[NUM_DIRECTION_TYPES] = {"local","incoming","outgoing", "remote"};$/;"	v	file:
+dump_packet_data	tcptrace.c	/^Bool dump_packet_data = FALSE;$/;"	v
+dump_rtt	tcptrace.c	/^Bool dump_rtt = FALSE;$/;"	v
+dump_rtt_sample	rexmit.c	/^dump_rtt_sample (tcb * ptcb,$/;"	f	file:
+dup_ack_handling	tcptrace.c	/^Bool dup_ack_handling = TRUE;$/;"	v
+dupacks	mod_traffic.c	/^static u_long dupacks;$/;"	v	file:
+dyn_counter	dyncounter.c	/^struct dyn_counter {$/;"	s	file:
+ecn_color	trace.c	/^char *ecn_color		= "yellow";$/;"	v
+elapsed	trace.c	/^elapsed($/;"	f
+elapsed2str	output.c	/^elapsed2str($/;"	f
+endpnum	tcptrace.c	/^u_long endpnum = 0;$/;"	v
+endpoint_pair	mod_tcplib.c	/^typedef struct endpoint_pair {$/;"	s	file:
+endpoint_pair	mod_tcplib.c	/^} endpoint_pair;$/;"	t	typeref:struct:endpoint_pair	file:
+erf_record	erf.c	/^typedef struct erf_record {$/;"	s	file:
+erf_record_t	erf.c	/^} erf_record_t;$/;"	t	typeref:struct:erf_record	file:
+erf_timestamp_t	erf.c	/^typedef unsigned long erf_timestamp_t[2];$/;"	t	file:
+erf_timestamp_t	erf.c	/^typedef unsigned long long erf_timestamp_t;$/;"	t	file:
+eth	erf.c	/^        eth_rec_t	eth;$/;"	m	union:erf_record::__anon2	file:
+eth_header	erf.c	/^static struct ether_header eth_header;$/;"	v	typeref:struct:ether_header	file:
+eth_header	tcpdump.c	/^static struct ether_header eth_header;$/;"	v	typeref:struct:ether_header	file:
+eth_rec	erf.c	/^typedef struct eth_rec {$/;"	s	file:
+eth_rec_t	erf.c	/^} eth_rec_t;$/;"	t	typeref:struct:eth_rec	file:
+etype	erf.c	/^    unsigned short	etype;$/;"	m	struct:eth_rec	file:
+exprstr	filter.c	/^static char *exprstr = NULL;$/;"	v	file:
+ext_bool_op	tcptrace.c	/^static struct ext_bool_op {$/;"	s	file:
+ext_opt	tcptrace.c	/^static struct ext_opt {$/;"	s	file:
+ext_var_op	tcptrace.c	/^static struct ext_var_op {$/;"	s	file:
+extend_line	plotter.c	/^extend_line($/;"	f
+extended_bools	tcptrace.c	/^} extended_bools[] = {$/;"	v	typeref:struct:ext_bool_op	file:
+extended_options	tcptrace.c	/^} extended_options[] = {$/;"	v	typeref:struct:ext_opt	file:
+extended_vars	tcptrace.c	/^} extended_vars[] = {$/;"	v	typeref:struct:ext_var_op	file:
+f_orig_stdin	compress.c	/^static FILE * f_orig_stdin = NULL;$/;"	v	file:
+f_testinside	mod_tcplib.c	/^typedef Bool (*f_testinside) (module_conninfo *pmc,$/;"	t	file:
+fcs_bits	erf.c	/^static int fcs_bits = FCS_BITS;$/;"	v	file:
+file_header	etherpeek.c	/^} file_header;$/;"	v	typeref:struct:EPFileHeader	file:
+file_header2	etherpeek.c	/^} file_header2;$/;"	v	typeref:struct:EPFileHeader2	file:
+filename	netscout.c	/^  char filename[255];$/;"	m	struct:netscout_header	file:
+filename	plotter.c	/^    char *filename;		\/* redundant copy of name for debugging *\/$/;"	m	struct:plotter_info	file:
+filenames	tcptrace.c	/^char **filenames = NULL;$/;"	v
+filesize	tcptrace.c	/^static u_long filesize = 0;$/;"	v	file:
+filterNum	etherpeek.c	/^    tt_uint16 filterNum;		\/* index to filter table*\/$/;"	m	struct:EPFilePacket3_v5_6	file:
+filter_getc	filter.c	/^filter_getc()$/;"	f
+filter_output	tcptrace.c	/^Bool filter_output = FALSE;$/;"	v
+filter_root	filter.c	/^static struct filter_node *filter_root = NULL;$/;"	v	typeref:struct:filter_node	file:
+filtyyerror	filt_parser.c	/^filtyyerror(char *error_string, ...)$/;"	f
+find_ip_fddi	snoop.c	/^static int find_ip_fddi(char* buf, int iplen) {$/;"	f	file:
+findheader	ipv6.c	/^findheader($/;"	f	file:
+first_data_time	mod_inbounds.c	/^     timeval first_data_time; \/\/ time of the connection's first data packet$/;"	m	struct:inbounds_tcp_conn_info	file:
+first_packet	tcptrace.c	/^timeval first_packet = {0,0};$/;"	v
+first_time	mod_inbounds.c	/^     timeval first_time; \/\/ time of the connection's first packet $/;"	m	struct:inbounds_tcp_conn_info	file:
+first_time	mod_inbounds.c	/^     timeval first_time; \/\/ time of the connection's first packet $/;"	m	struct:inbounds_udp_conn_info	file:
+first_time	mod_realtime.c	/^  timeval	first_time;	\/* time of the connection's first packet *\/$/;"	m	struct:realtime_conn_info	file:
+first_time	mod_tcplib.c	/^    timeval	first_time;$/;"	m	struct:module_conninfo	file:
+firstleaf	dyncounter.c	/^    struct node *firstleaf;$/;"	m	struct:dyn_counter	typeref:struct:dyn_counter::node	file:
+flags	erf.c	/^    unsigned char	flags;$/;"	m	struct:erf_record	file:
+flags	etherpeek.c	/^    u_char	flags;		\/* CRC, frame, runt, ... *\/$/;"	m	struct:PeekPacket_v7	file:
+flags	etherpeek.c	/^    u_char flags;		\/* crc, frame, runt, ...*\/$/;"	m	struct:EPFilePacket2_v5_6	file:
+fname	mfiles.c	/^    char *fname;$/;"	m	struct:mfile	file:
+formatGetString	mod_http.c	/^static char * formatGetString(char * s) $/;"	f	file:
+format_name	snoop.c	/^    char		format_name[8];	\/* should be "snoop\\0\\0\\0" *\/$/;"	m	struct:snoop_file_header	file:
+fp	erf.c	/^static FILE *fp;$/;"	v	file:
+fp	etherpeek.c	/^static FILE *fp;$/;"	v	file:
+fp	netm.c	/^static FILE *fp;$/;"	v	file:
+fp	netscout.c	/^static FILE *fp;$/;"	v	file:
+fp	nlanr.c	/^static FILE *fp;$/;"	v	file:
+fp	ns.c	/^static FILE *fp;$/;"	v	file:
+fp	snoop.c	/^static FILE *fp;$/;"	v	file:
+fplot	plotter.c	/^    MFILE *fplot;		\/* the file that hold the plot *\/$/;"	m	struct:plotter_info	file:
+fptr	mfiles.c	/^    long fptr;$/;"	m	struct:mfile	file:
+freequad	rexmit.c	/^freequad (quadrant ** ppquad)$/;"	f
+ftp_endpoints	mod_tcplib.c	/^endpoint_pair *ftp_endpoints[ENDPOINT_PAIR_HASHSIZE];$/;"	v
+futureUse	etherpeek.c	/^    tt_uint32 futureUse[7];	\/*reserved for future use and irrelevent to us!*\/$/;"	m	struct:EPFileHeader2	file:
+get_head	mod_http.c	/^    struct time_stamp get_head;$/;"	m	struct:http_info	typeref:struct:http_info::time_stamp	file:
+get_info	mod_http.c	/^struct get_info {$/;"	s	file:
+get_long_opt	trace.c	/^get_long_opt($/;"	f	file:
+get_short_opt	trace.c	/^get_short_opt($/;"	f	file:
+get_string	mod_http.c	/^    char *get_string;		\/* content of GET string *\/$/;"	m	struct:get_info	file:
+get_tail	mod_http.c	/^    struct time_stamp get_tail;$/;"	m	struct:http_info	typeref:struct:http_info::time_stamp	file:
+get_time	mod_http.c	/^    timeval get_time;		\/* when CLIENT sent GET *\/$/;"	m	struct:get_info	file:
+gethdrlength	ipv6.c	/^int gethdrlength (struct ip *pip, void *plast)$/;"	f
+getpayloadlength	ipv6.c	/^int getpayloadlength (struct ip *pip, void *plast)$/;"	f
+getroutingheader	ipv6.c	/^getroutingheader($/;"	f
+gets_head	mod_http.c	/^    struct get_info *gets_head;$/;"	m	struct:http_info	typeref:struct:http_info::get_info	file:
+gets_tail	mod_http.c	/^    struct get_info *gets_tail;$/;"	m	struct:http_info	typeref:struct:http_info::get_info	file:
+gettcp	ipv6.c	/^gettcp($/;"	f
+getudp	ipv6.c	/^getudp($/;"	f
+global_pstats	mod_tcplib.c	/^} *global_pstats[NUM_DIRECTION_TYPES] = {NULL};$/;"	v	typeref:struct:tcplibstats	file:
+gran	dyncounter.c	/^    u_long gran;		\/* granularity of the IX *\/$/;"	m	struct:dyn_counter	file:
+graph_owin	tcptrace.c	/^Bool graph_owin = FALSE;$/;"	v
+graph_rtt	tcptrace.c	/^Bool graph_rtt = FALSE;$/;"	v
+graph_rtt_sample	rexmit.c	/^graph_rtt_sample (tcb * ptcb,$/;"	f	file:
+graph_segsize	tcptrace.c	/^Bool graph_segsize = FALSE;$/;"	v
+graph_seq_zero	tcptrace.c	/^Bool graph_seq_zero = FALSE;$/;"	v
+graph_time_zero	tcptrace.c	/^Bool graph_time_zero = FALSE;$/;"	v
+graph_tline	tcptrace.c	/^Bool graph_tline = FALSE;$/;"	v
+graph_tput	tcptrace.c	/^Bool graph_tput = FALSE;$/;"	v
+graph_tsg	tcptrace.c	/^Bool graph_tsg = FALSE;$/;"	v
+graph_zero_len_pkts	tcptrace.c	/^Bool graph_zero_len_pkts = TRUE;$/;"	v
+groupnum	mod_tcplib.c	/^    unsigned long groupnum;	\/* for keeping track of parallel HTTP *\/$/;"	m	struct:burstkey	file:
+had_data	mod_inbounds.c	/^     Bool had_data;  $/;"	m	struct:inbounds_tcp_conn_info	file:
+halfopen	mod_traffic.c	/^    Bool halfopen;		\/* for half open conns *\/$/;"	m	struct:conn_info	file:
+hashentry	gcache.c	/^struct hashentry {$/;"	s	file:
+hashtable_efficiency	trace.c	/^static struct search_efficiency hashtable_efficiency[HASH_TABLE_SIZE];$/;"	v	typeref:struct:search_efficiency	file:
+hdlc	erf.c	/^    unsigned int	hdlc;$/;"	m	struct:pos_rec	file:
+he_ix	gcache.c	/^	tceix	he_ix;$/;"	m	struct:hashentry	file:
+header	erf.c	/^    unsigned int	header; $/;"	m	struct:atm_rec	file:
+header_done	plotter.c	/^    Bool header_done;           \/* Flag indicating plotter header written to file *\/$/;"	m	struct:plotter_info	file:
+header_length	compress.c	/^static int header_length = -1;$/;"	v	file:
+hex	tcptrace.c	/^Bool hex = TRUE;$/;"	v
+hist	mod_rttgraph.c	/^struct hist {$/;"	s	file:
+hist3d	mod_rttgraph.c	/^struct hist3d {$/;"	s	file:
+hist_file	mod_tcplib.c	/^    MFILE *hist_file;$/;"	m	struct:tcplibstats	file:
+http_P_bursts	mod_tcplib.c	/^    struct burstdata http_P_bursts;$/;"	m	struct:tcplibstats	typeref:struct:tcplibstats::burstdata	file:
+http_P_maxconns	mod_tcplib.c	/^    dyn_counter http_P_maxconns; \/* max degree of concurrency *\/$/;"	m	struct:tcplibstats	file:
+http_P_persistant	mod_tcplib.c	/^    dyn_counter http_P_persistant; \/* which parallel groups are persistant *\/$/;"	m	struct:tcplibstats	file:
+http_P_ttlitems	mod_tcplib.c	/^    dyn_counter http_P_ttlitems; \/* ttl items across whole parallel group *\/$/;"	m	struct:tcplibstats	file:
+http_S_bursts	mod_tcplib.c	/^    struct burstdata http_S_bursts;$/;"	m	struct:tcplibstats	typeref:struct:tcplibstats::burstdata	file:
+http_done	mod_http.c	/^http_done(void)$/;"	f
+http_endpoints	mod_tcplib.c	/^endpoint_pair *http_endpoints[ENDPOINT_PAIR_HASHSIZE];$/;"	v
+http_groupnum	mod_tcplib.c	/^    u_long http_groupnum;$/;"	m	struct:module_conninfo	file:
+http_info	mod_http.c	/^static struct http_info {$/;"	s	file:
+http_init	mod_http.c	/^http_init($/;"	f
+http_newconn	mod_http.c	/^http_newconn($/;"	f
+http_newfile	mod_http.c	/^http_newfile($/;"	f
+http_read	mod_http.c	/^http_read($/;"	f
+http_usage	mod_http.c	/^http_usage(void)$/;"	f
+httpd_port	mod_http.c	/^static unsigned httpd_port;$/;"	v	file:
+httphead	mod_http.c	/^} *httphead = NULL, *httptail = NULL;$/;"	v	typeref:struct:http_info	file:
+httptail	mod_http.c	/^} *httphead = NULL, *httptail = NULL;$/;"	v	typeref:struct:http_info	file:
+hw_dup_color	trace.c	/^char *hw_dup_color	= "blue";$/;"	v
+idletime	mod_tcplib.c	/^    dyn_counter idletime;	\/* idle time between bursts *\/$/;"	m	struct:burstdata	file:
+ignore_conn	mod_tcplib.c	/^    Bool ignore_conn;$/;"	m	struct:module_conninfo	file:
+ignore_non_comp	tcptrace.c	/^Bool ignore_non_comp = FALSE;$/;"	v
+ignore_pairs	trace.c	/^static Bool *ignore_pairs = NULL;\/* which ones will we ignore *\/$/;"	v	file:
+ignore_pairs	udp.c	/^static Bool *ignore_pairs = NULL;\/* which ones will we ignore *\/$/;"	v	file:
+iinfo	mod_inbounds.c	/^typedef struct inbounds_info iinfo;$/;"	t	typeref:struct:inbounds_info	file:
+inbounds_done	mod_inbounds.c	/^     inbounds_done(void)$/;"	f
+inbounds_info	mod_inbounds.c	/^struct inbounds_info $/;"	s	file:
+inbounds_init	mod_inbounds.c	/^     inbounds_init($/;"	f
+inbounds_nontcpudp_read	mod_inbounds.c	/^     inbounds_nontcpudp_read($/;"	f
+inbounds_tcp_conn_info	mod_inbounds.c	/^struct inbounds_tcp_conn_info $/;"	s	file:
+inbounds_tcp_deleteconn	mod_inbounds.c	/^     inbounds_tcp_deleteconn($/;"	f
+inbounds_tcp_newconn	mod_inbounds.c	/^     inbounds_tcp_newconn( $/;"	f
+inbounds_tcp_read	mod_inbounds.c	/^     inbounds_tcp_read($/;"	f
+inbounds_udp_conn_info	mod_inbounds.c	/^struct inbounds_udp_conn_info $/;"	s	file:
+inbounds_udp_deleteconn	mod_inbounds.c	/^     inbounds_udp_deleteconn($/;"	f
+inbounds_udp_newconn	mod_inbounds.c	/^     inbounds_udp_newconn($/;"	f
+inbounds_udp_read	mod_inbounds.c	/^inbounds_udp_read($/;"	f
+inbounds_usage	mod_inbounds.c	/^     inbounds_usage(void)$/;"	f
+inc_cnt	mod_inbounds.c	/^static int inc_cnt=0;$/;"	v	file:
+inet_pton	ipv6.c	/^inet_pton(int af, const char *src, void *dst)$/;"	f
+info	mod_slice.c	/^} info;$/;"	v	typeref:struct:slice_counters	file:
+insert_seg_between	rexmit.c	/^insert_seg_between (quadrant * pquad,$/;"	f	file:
+inside_head	mod_tcplib.c	/^} *inside_head = NULL;$/;"	v	typeref:struct:insidenode
+insidenode	mod_tcplib.c	/^struct insidenode {$/;"	s	file:
+interface_id	nlanr.c	/^    unsigned int	interface_id:8;$/;"	m	struct:tsh_packet_header	file:
+interval_count	mod_tcplib.c	/^    int interval_count;$/;"	m	struct:tcplibstats	file:
+ipCheck	mod_inbounds.c	/^ipCheck($/;"	f	file:
+ip_buf	tcpdump.c	/^static char *ip_buf;  \/* [IP_MAXPACKET] *\/$/;"	v	file:
+ip_cksum	trace.c	/^ip_cksum($/;"	f	file:
+ip_cksum_valid	trace.c	/^ip_cksum_valid($/;"	f
+ip_copyaddr	ipv6.c	/^void ip_copyaddr (ipaddr *ptoaddr, ipaddr *pfromaddr)$/;"	f
+ip_header	nlanr.c	/^    struct ip ip_header;$/;"	m	struct:tsh_frame	typeref:struct:tsh_frame::ip	file:
+ip_lowaddr	ipv6.c	/^int ip_lowaddr (ipaddr *paddr1, ipaddr *paddr2)$/;"	f
+ip_p	mod_inbounds.c	/^     u_char ip_p;$/;"	m	struct:protocol	file:
+ip_p	mod_realtime.c	/^  u_char ip_p;$/;"	m	struct:protocol	file:
+ip_sameaddr	ipv6.c	/^int ip_sameaddr (ipaddr *paddr1, ipaddr *paddr2)$/;"	f
+ipb	ns.c	/^static struct ip *ipb;$/;"	v	typeref:struct:ip	file:
+ipport_offset	mod_tcplib.c	/^static int ipport_offset = 0;$/;"	v	file:
+ipv6_header_name	ipv6.c	/^ipv6_header_name($/;"	f
+ipv6_nextheader	ipv6.c	/^ipv6_nextheader($/;"	f
+ipv6addr2str	print.c	/^ipv6addr2str($/;"	f	file:
+is_EP	etherpeek.c	/^pread_f *is_EP(char *filename)$/;"	f
+is_closed	mod_realtime.c	/^  Bool		is_closed;	\/* is the connection has been closed? *\/$/;"	m	struct:realtime_conn_info	file:
+is_compressed	compress.c	/^static Bool is_compressed = FALSE;$/;"	v	file:
+is_erf	erf.c	/^is_erf($/;"	f
+is_ftp_ctrl_conn	mod_tcplib.c	383;"	d	file:
+is_ftp_ctrl_port	mod_tcplib.c	/^Bool is_ftp_ctrl_port($/;"	f
+is_ftp_data_conn	mod_tcplib.c	384;"	d	file:
+is_ftp_data_port	mod_tcplib.c	/^Bool is_ftp_data_port($/;"	f
+is_http_conn	mod_tcplib.c	385;"	d	file:
+is_http_port	mod_tcplib.c	/^is_http_port($/;"	f	file:
+is_netm	netm.c	/^pread_f *is_netm(char *filename)$/;"	f
+is_netscout	netscout.c	/^pread_f *is_netscout(char *filename)$/;"	f
+is_new	mod_realtime.c	/^  Bool		is_new;		\/* is the connection new? *\/$/;"	m	struct:realtime_conn_info	file:
+is_nlanr	nlanr.c	/^pread_f *is_nlanr(char *filename)$/;"	f
+is_nntp_conn	mod_tcplib.c	386;"	d	file:
+is_nntp_port	mod_tcplib.c	/^is_nntp_port($/;"	f	file:
+is_ns	ns.c	/^pread_f *is_ns(char *filename)$/;"	f
+is_parallel_http	mod_tcplib.c	/^is_parallel_http($/;"	f	file:
+is_smtp_conn	mod_tcplib.c	387;"	d	file:
+is_smtp_port	mod_tcplib.c	/^is_smtp_port($/;"	f	file:
+is_snoop	snoop.c	/^pread_f *is_snoop(char *filename)$/;"	f
+is_tcpdump	tcpdump.c	/^pread_f *is_tcpdump(char *filename)$/;"	f
+is_telnet_conn	mod_tcplib.c	388;"	d	file:
+is_telnet_port	mod_tcplib.c	/^Bool is_telnet_port($/;"	f
+islong	mod_traffic.c	/^    Bool islong;		\/* is this a long-duration connection? *\/$/;"	m	struct:conn_info	file:
+isopen	mod_traffic.c	/^    Bool isopen;		\/* is this connection open now? *\/$/;"	m	struct:conn_info	file:
+itcinfo	mod_inbounds.c	/^typedef struct inbounds_tcp_conn_info itcinfo;$/;"	t	typeref:struct:inbounds_tcp_conn_info	file:
+itcinfo_pool	mod_inbounds.c	/^static long itcinfo_pool = -1;$/;"	v	file:
+iucinfo	mod_inbounds.c	/^typedef struct inbounds_udp_conn_info iucinfo;$/;"	t	typeref:struct:inbounds_udp_conn_info	file:
+iucinfo_pool	mod_inbounds.c	/^static long iucinfo_pool = -1;$/;"	v	file:
+ix_nextch	dstring.c	/^    int ix_nextch;$/;"	m	struct:dstring	file:
+key	mod_tcplib.c	/^    unsigned char key;		\/* one character key to return *\/$/;"	m	struct:burstkey	file:
+label	plotter.c	/^    char *label;$/;"	m	struct:pl_line	file:
+labelled	plotter.c	/^    Bool labelled;$/;"	m	struct:pl_line	file:
+last_active_slice	mod_slice.c	/^    u_long last_active_slice;	\/* for checking activity *\/$/;"	m	struct:conn_info	file:
+last_actual_time	mod_realtime.c	/^  timeval        last_actual_time;	\/* time of the last network statistics  *\/$/;"	m	struct:realtime_info	file:
+last_data_time	mod_inbounds.c	/^     timeval last_data_time; \/\/ time of the connection's last data packet$/;"	m	struct:inbounds_tcp_conn_info	file:
+last_data_time	mod_tcplib.c	/^    timeval	last_data_time;$/;"	m	struct:module_conninfo_tcb	file:
+last_dupacks	mod_traffic.c	/^    u_int last_dupacks;		\/* last value of dupacks I saw *\/$/;"	m	struct:conn_info	file:
+last_interval	mod_tcplib.c	/^    timeval last_interval;$/;"	m	struct:tcplibstats	file:
+last_packet	tcptrace.c	/^timeval last_packet = {0,0};$/;"	v
+last_rexmits	mod_slice.c	/^    u_long last_rexmits;	\/* for detecting rexmits *\/$/;"	m	struct:conn_info	file:
+last_rexmits	mod_traffic.c	/^    u_int last_rexmits;		\/* last value of rexmits I saw *\/$/;"	m	struct:conn_info	file:
+last_rtts	mod_traffic.c	/^    u_int last_rtts;		\/* last value of rtt counters I saw *\/$/;"	m	struct:conn_info	file:
+last_scheduled_time	mod_realtime.c	/^  timeval        last_scheduled_time;	\/* time of the last network statistics  *\/$/;"	m	struct:realtime_info	file:
+last_seg_pushed	mod_tcplib.c	/^    Bool last_seg_pushed;	\/* Thu Aug 26, 1999 - not used  *\/$/;"	m	struct:module_conninfo_tcb	file:
+last_tcp_actual_time	mod_inbounds.c	/^     timeval last_tcp_actual_time;$/;"	m	struct:inbounds_info	file:
+last_tcp_scheduled_time	mod_inbounds.c	/^     timeval last_tcp_scheduled_time;$/;"	m	struct:inbounds_info	file:
+last_time	mod_inbounds.c	/^     timeval last_time;	\/\/ time of the connection's last packet$/;"	m	struct:inbounds_tcp_conn_info	file:
+last_time	mod_inbounds.c	/^     timeval last_time; \/\/ time of the connection's last packet$/;"	m	struct:inbounds_udp_conn_info	file:
+last_time	mod_realtime.c	/^  timeval	last_time;	\/* time of the connection's last packet *\/$/;"	m	struct:realtime_conn_info	file:
+last_time	mod_tcplib.c	/^    timeval	last_time;$/;"	m	struct:module_conninfo	file:
+last_time	plotter.c	/^    timeval last_time;$/;"	m	struct:pl_line	file:
+last_udp_actual_time	mod_inbounds.c	/^     timeval last_udp_actual_time;    $/;"	m	struct:inbounds_info	file:
+last_udp_scheduled_time	mod_inbounds.c	/^     timeval last_udp_scheduled_time;$/;"	m	struct:inbounds_info	file:
+last_update_time	trace.c	/^static timeval	last_update_time = {0, 0};$/;"	v	file:
+last_y	plotter.c	/^    int last_y;$/;"	m	struct:pl_line	file:
+lastbyte_time	mod_http.c	/^    timeval lastbyte_time;	\/* when SERVER sent last byte of CONTENT *\/$/;"	m	struct:get_info	file:
+lastleaf	dyncounter.c	/^    struct node *lastleaf;$/;"	m	struct:dyn_counter	typeref:struct:dyn_counter::node	file:
+lctr	erf.c	/^    unsigned short	lctr;$/;"	m	struct:erf_record	file:
+ldebug	dyncounter.c	/^static int ldebug = 0;$/;"	v	file:
+ldebug	mod_slice.c	/^static int ldebug = 0;$/;"	v	file:
+ldebug	mod_tcplib.c	/^static int ldebug = 0;$/;"	v	file:
+ldebug	mod_traffic.c	/^static int ldebug = 0;$/;"	v	file:
+len	netm.c	/^    int	len;$/;"	m	struct:netm_packet_header	file:
+len	netm.c	/^    int	len;$/;"	m	struct:netm_packet_header_old	file:
+len	netscout.c	/^    tt_int32	len;$/;"	m	struct:netscout_packet_header	file:
+len	snoop.c	/^    tt_uint32	len;$/;"	m	struct:snoop_packet_header	file:
+length	etherpeek.c	/^    tt_uint32 length;		\/* length of file*\/$/;"	m	struct:EPFileHeader2	file:
+line_data_all	mod_traffic.c	/^static PLINE line_data_all;$/;"	v	file:
+line_data_nonrexmit	mod_traffic.c	/^static PLINE line_data_nonrexmit;$/;"	v	file:
+line_dupacks	mod_traffic.c	/^static PLINE line_dupacks;$/;"	v	file:
+line_nactive	mod_traffic.c	/^    PLINE line_nactive;$/;"	m	struct:traffic_info	file:
+line_nbytes	mod_traffic.c	/^    PLINE line_nbytes;$/;"	m	struct:traffic_info	file:
+line_nidle	mod_traffic.c	/^    PLINE line_nidle;$/;"	m	struct:traffic_info	file:
+line_niopen	mod_traffic.c	/^    PLINE line_niopen;$/;"	m	struct:traffic_info	file:
+line_nlong	mod_traffic.c	/^    PLINE line_nlong;$/;"	m	struct:traffic_info	file:
+line_nopen	mod_traffic.c	/^    PLINE line_nopen;$/;"	m	struct:traffic_info	file:
+line_npackets	mod_traffic.c	/^    PLINE line_npackets;$/;"	m	struct:traffic_info	file:
+line_num_closes	mod_traffic.c	/^static PLINE line_num_closes;$/;"	v	file:
+line_num_halfopens	mod_traffic.c	/^static PLINE line_num_halfopens;$/;"	v	file:
+line_num_opens	mod_traffic.c	/^static PLINE line_num_opens;$/;"	v	file:
+line_open_conns	mod_traffic.c	/^static PLINE line_open_conns;$/;"	v	file:
+line_pureacks	mod_traffic.c	/^    PLINE line_pureacks;$/;"	m	struct:traffic_info	file:
+line_rexmits	mod_traffic.c	/^static PLINE line_rexmits;$/;"	v	file:
+line_rtt_avg	mod_traffic.c	/^static PLINE line_rtt_avg;$/;"	v	file:
+line_rtt_max	mod_traffic.c	/^static PLINE line_rtt_max;$/;"	v	file:
+line_rtt_min	mod_traffic.c	/^static PLINE line_rtt_min;$/;"	v	file:
+linenum	ns.c	/^static unsigned linenum;$/;"	v	file:
+list	pool.c	/^  struct Block	*list;		\/* pointer to a list of free blocks *\/$/;"	m	struct:Pool	typeref:struct:Pool::Block	file:
+live_conn_interval_st	tcptrace.c	/^static char *live_conn_interval_st = NULL;$/;"	v	file:
+live_conn_list_head	trace.c	/^static ptp_ptr	*live_conn_list_head = NULL;$/;"	v	file:
+live_conn_list_tail	trace.c	/^static ptp_ptr	*live_conn_list_tail = NULL;$/;"	v	file:
+longconn_duration	mod_traffic.c	/^static int longconn_duration = 60;$/;"	v	file:
+mac_type	snoop.c	/^    tt_uint32		mac_type;	\/* hardware type *\/$/;"	m	struct:snoop_file_header	file:
+mactime	etherpeek.c	/^static u_long mactime;$/;"	v	file:
+magic	mod_tcplib.c	/^    unsigned long magic;	\/* MUST be BURST_KEY_MAGIC *\/$/;"	m	struct:burstkey	file:
+main	filt_scanner.c	/^int main()$/;"	f
+main	tcptrace.c	/^main($/;"	f
+main	versnum.c	/^main()$/;"	f
+max	mod_rttgraph.c	/^    u_short max;$/;"	m	struct:samples	file:
+max	mod_tcplib.c	/^    ipaddr max;$/;"	m	struct:insidenode	file:
+max_conn_num	tcptrace.c	/^u_long max_conn_num = MAX_CONN_NUM;$/;"	v
+max_conn_num_st	tcptrace.c	/^static char *max_conn_num_st = NULL;$/;"	v	file:
+max_connections	trace.c	/^    unsigned max_connections;$/;"	m	struct:search_efficiency	file:
+max_depth	trace.c	/^    unsigned max_depth;$/;"	m	struct:search_efficiency	file:
+max_plotters	plotter.c	/^static int max_plotters;$/;"	v	file:
+max_samples	mod_rttgraph.c	/^    u_long max_samples;$/;"	m	struct:samples	file:
+max_tcp_pairs	trace.c	/^int max_tcp_pairs = 64; \/* initial value, automatically increases *\/$/;"	v
+max_udp_pairs	udp.c	/^int max_udp_pairs = 64; \/* initial value, automatically increases *\/$/;"	v
+maxcount	dyncounter.c	/^    u_long maxcount;$/;"	m	struct:dyn_counter	file:
+maxix	dyncounter.c	/^    u_long maxix;		\/* NOT scaled *\/$/;"	m	struct:dyn_counter	file:
+maxparallel	mod_tcplib.c	/^    u_short	maxparallel;	\/* maximum degree of parallelism *\/$/;"	m	struct:parallelism	file:
+method	mod_http.c	/^    MethodCode method;          \/* HTTP method code *\/$/;"	m	struct:get_info	file:
+mf_head	mfiles.c	/^MFILE mf_head;  \/* LEAST recently used *\/$/;"	v
+mf_tail	mfiles.c	/^MFILE mf_tail;  \/* MOST recently used *\/$/;"	v
+mfc_head	mfiles.c	/^MFILE mfc_head;  \/* closed files, LEAST recently closed *\/$/;"	v
+mfc_tail	mfiles.c	/^MFILE mfc_tail;  \/* closed files, MOST recently closed *\/$/;"	v
+mfile	mfiles.c	/^struct mfile {$/;"	s	file:
+min	erf.c	115;"	d	file:
+min	mod_rttgraph.c	/^    u_short min;$/;"	m	struct:samples	file:
+min	mod_tcplib.c	/^    ipaddr min;$/;"	m	struct:insidenode	file:
+minix	dyncounter.c	/^    u_long minix;		\/* NOT scaled *\/$/;"	m	struct:dyn_counter	file:
+mod_info	mod_inbounds.c	/^static iinfo *mod_info;$/;"	v	file:
+mod_info	mod_realtime.c	/^static rtinfo *mod_info;$/;"	v	file:
+module_conninfo	mod_tcplib.c	/^typedef struct module_conninfo {$/;"	s	file:
+module_conninfo	mod_tcplib.c	/^} module_conninfo;$/;"	t	typeref:struct:module_conninfo	file:
+module_conninfo_tail	mod_tcplib.c	/^module_conninfo *module_conninfo_tail = NULL;$/;"	v
+module_conninfo_tcb	mod_tcplib.c	/^typedef struct module_conninfo_tcb {$/;"	s	file:
+module_conninfo_tcb	mod_tcplib.c	/^} module_conninfo_tcb;$/;"	t	typeref:struct:module_conninfo_tcb	file:
+more_conns_ignored	trace.c	/^static Bool more_conns_ignored = FALSE;$/;"	v	file:
+more_conns_ignored	udp.c	/^static Bool more_conns_ignored = FALSE;$/;"	v	file:
+my_inet_ntop	ipv6.c	/^my_inet_ntop(int af, const char *src, char *dst, size_t size)$/;"	f
+n_active	mod_slice.c	/^    u_long n_active;$/;"	m	struct:slice_counters	file:
+n_bytes	mod_slice.c	/^    u_long n_bytes;$/;"	m	struct:slice_counters	file:
+n_i_open	mod_traffic.c	/^    u_long n_i_open;$/;"	m	struct:traffic_info	file:
+n_opens	mod_slice.c	/^    u_long n_opens;$/;"	m	struct:slice_counters	file:
+n_rexmit_bytes	mod_slice.c	/^    u_long n_rexmit_bytes;$/;"	m	struct:slice_counters	file:
+n_rexmit_segs	mod_slice.c	/^    u_long n_rexmit_segs;$/;"	m	struct:slice_counters	file:
+n_segs	mod_slice.c	/^    u_long n_segs;$/;"	m	struct:slice_counters	file:
+nactive	mod_traffic.c	/^    u_long nactive;$/;"	m	struct:traffic_info	file:
+namedfile	mod_tcplib.c	/^namedfile($/;"	f	file:
+nbytes	mod_tcplib.c	/^    unsigned long nbytes;	\/* bytes in burst (INCLUDING this struct) *\/$/;"	m	struct:burstkey	file:
+nbytes	mod_traffic.c	/^    u_long nbytes;$/;"	m	struct:traffic_info	file:
+netm_header	netm.c	/^struct netm_header {$/;"	s	file:
+netm_key	netm.c	/^	int	netm_key;$/;"	m	struct:netm_header	file:
+netm_oldversion	netm.c	/^int netm_oldversion;$/;"	v
+netm_packet_header	netm.c	/^struct netm_packet_header {$/;"	s	file:
+netm_packet_header_old	netm.c	/^struct netm_packet_header_old {$/;"	s	file:
+netscout_header	netscout.c	/^struct netscout_header {$/;"	s	file:
+netscout_packet_header	netscout.c	/^struct netscout_packet_header {$/;"	s	file:
+new	mod_inbounds.c	/^     Bool new; \/\/ is the connection new ?$/;"	m	struct:inbounds_tcp_conn_info	file:
+new	mod_inbounds.c	/^     Bool new; \/\/ is the connection new ?$/;"	m	struct:inbounds_udp_conn_info	file:
+new_line	plotter.c	/^new_line($/;"	f
+new_plotter	plotter.c	/^new_plotter($/;"	f
+next	mfiles.c	/^    MFILE *next;$/;"	m	struct:mfile	file:
+next	mod_collie.c	/^    struct conn_info *next;$/;"	m	struct:conn_info	typeref:struct:conn_info::conn_info	file:
+next	mod_collie.c	/^    struct uconn_info *next;$/;"	m	struct:uconn_info	typeref:struct:uconn_info::uconn_info	file:
+next	mod_http.c	/^    struct client_info *next;$/;"	m	struct:client_info	typeref:struct:client_info::client_info	file:
+next	mod_http.c	/^    struct get_info *next;$/;"	m	struct:get_info	typeref:struct:get_info::get_info	file:
+next	mod_http.c	/^    struct http_info *next;$/;"	m	struct:http_info	typeref:struct:http_info::http_info	file:
+next	mod_http.c	/^    struct time_stamp *next;$/;"	m	struct:time_stamp	typeref:struct:time_stamp::time_stamp	file:
+next	mod_inbounds.c	/^     struct inbounds_tcp_conn_info *next; \/* pointer to the next connection *\/$/;"	m	struct:inbounds_tcp_conn_info	typeref:struct:inbounds_tcp_conn_info::inbounds_tcp_conn_info	file:
+next	mod_inbounds.c	/^     struct inbounds_udp_conn_info *next; \/* pointer to the next connection *\/$/;"	m	struct:inbounds_udp_conn_info	typeref:struct:inbounds_udp_conn_info::inbounds_udp_conn_info	file:
+next	mod_inbounds.c	/^     struct protocol *next;$/;"	m	struct:protocol	typeref:struct:protocol::protocol	file:
+next	mod_realtime.c	/^  struct protocol *next;$/;"	m	struct:protocol	typeref:struct:protocol::protocol	file:
+next	mod_realtime.c	/^  struct realtime_conn_info *next; \/* pointer to the next connection *\/$/;"	m	struct:realtime_conn_info	typeref:struct:realtime_conn_info::realtime_conn_info	file:
+next	mod_rttgraph.c	/^    struct rttgraph_info *next;$/;"	m	struct:rttgraph_info	typeref:struct:rttgraph_info::rttgraph_info	file:
+next	mod_tcplib.c	/^    struct insidenode *next;$/;"	m	struct:insidenode	typeref:struct:insidenode::insidenode	file:
+next	mod_traffic.c	/^    struct conn_info *next;	\/* next in the chain *\/$/;"	m	struct:conn_info	typeref:struct:conn_info::conn_info	file:
+next	mod_traffic.c	/^    struct traffic_info *next;$/;"	m	struct:traffic_info	typeref:struct:traffic_info::traffic_info	file:
+next	pool.c	/^  struct Block	*next;$/;"	m	struct:Block	typeref:struct:Block::Block	file:
+next_pair	mod_tcplib.c	/^    struct module_conninfo *next_pair;$/;"	m	struct:module_conninfo	typeref:struct:module_conninfo::module_conninfo	file:
+nextleaf	dyncounter.c	/^    struct node *nextleaf;	\/* linked list of leaves, for NextCounter() *\/$/;"	m	struct:node	typeref:struct:node::node	file:
+nidle	mod_traffic.c	/^    u_long nidle;$/;"	m	struct:traffic_info	file:
+nitems	mod_tcplib.c	/^    dyn_counter nitems;		\/* total items (bursts) in connection *\/$/;"	m	struct:burstdata	file:
+nlong	mod_traffic.c	/^    u_long nlong;$/;"	m	struct:traffic_info	file:
+nntp_bursts	mod_tcplib.c	/^    struct burstdata nntp_bursts;$/;"	m	struct:tcplibstats	typeref:struct:tcplibstats::burstdata	file:
+node	dyncounter.c	/^struct node {$/;"	s	file:
+nonames	trace.c	/^Bool nonames = FALSE;$/;"	v
+nonreal_conn_interval_st	tcptrace.c	/^static char *nonreal_conn_interval_st = NULL;$/;"	v	file:
+nonreal_live_conn_interval	tcptrace.c	/^u_long nonreal_live_conn_interval = NONREAL_LIVE_CONN_INTERVAL;$/;"	v
+nontcpudp_packets	mod_inbounds.c	/^static u_llong nontcpudp_packets = 0;$/;"	v	file:
+nontcpudp_packets	mod_realtime.c	/^static u_llong nontcpudp_packets = 0;$/;"	v	file:
+nopen	mod_traffic.c	/^    u_long nopen;$/;"	m	struct:traffic_info	file:
+npackets	mod_traffic.c	/^    u_long npackets;$/;"	m	struct:traffic_info	file:
+npureacks	mod_traffic.c	/^    u_long npureacks;$/;"	m	struct:traffic_info	file:
+ns_hdrs	tcptrace.c	/^Bool ns_hdrs = TRUE;$/;"	v
+numPackets	etherpeek.c	/^    tt_uint32 numPackets;		\/* number of packets contained in the file*\/$/;"	m	struct:EPFileHeader2	file:
+num_buckets	mod_rttgraph.c	/^    u_long num_buckets;$/;"	m	struct:hist	file:
+num_closes	mod_traffic.c	/^static int num_closes = 0;$/;"	v	file:
+num_comparisons	trace.c	/^    unsigned num_comparisons;$/;"	m	struct:search_efficiency	file:
+num_connections	trace.c	/^    unsigned num_connections;$/;"	m	struct:search_efficiency	file:
+num_files	tcptrace.c	/^int num_files = 0;$/;"	v
+num_halfopens	mod_traffic.c	/^static int num_halfopens = 0;$/;"	v	file:
+num_modules	tcptrace.c	/^int num_modules = 0;$/;"	v
+num_opens	mod_traffic.c	/^static int num_opens = 0;$/;"	v	file:
+num_removed_tcp_pairs	trace.c	/^static int num_removed_tcp_pairs = 0;$/;"	v	file:
+num_samples	mod_rttgraph.c	/^    u_long num_samples;$/;"	m	struct:hist	file:
+num_samples	mod_rttgraph.c	/^    u_long num_samples;$/;"	m	struct:samples	file:
+num_searches	trace.c	/^    unsigned num_searches;$/;"	m	struct:search_efficiency	file:
+num_tcp_pairs	trace.c	/^int num_tcp_pairs = -1;	\/* how many pairs we've allocated *\/$/;"	v
+num_udp_pairs	udp.c	/^int num_udp_pairs = -1;	\/* how many pairs we've allocated *\/$/;"	v
+numfiles	tcptrace.c	/^u_int numfiles;$/;"	v
+numitems	mod_tcplib.c	/^    u_long numitems;$/;"	m	struct:module_conninfo_tcb	file:
+offset	erf.c	/^    unsigned char	offset;$/;"	m	struct:eth_rec	file:
+op	filt_parser.c	/^    enum optype op;$/;"	m	union:__anon3	typeref:enum:__anon3::optype	file:
+open_conns	mod_realtime.c	/^  u_long        open_conns;		\/* number of new connections within the $/;"	m	struct:realtime_info	file:
+open_conns	mod_traffic.c	/^static int open_conns = 0;$/;"	v	file:
+opt_descr	tcptrace.c	/^     char *opt_descr;$/;"	m	struct:ext_opt	file:
+opt_func	tcptrace.c	/^     void (*opt_func) (char *argsource, char *opt);$/;"	m	struct:ext_opt	file:
+opt_name	tcptrace.c	/^     char *opt_name;  \/\/ what it is called$/;"	m	struct:ext_opt	file:
+out_order_color	trace.c	/^char *out_order_color	= "pink";$/;"	v
+output_dir	mod_tcplib.c	/^static char *output_dir = DEFAULT_TCPLIB_DATADIR;$/;"	v	file:
+output_file_dir	tcptrace.c	/^char *output_file_dir = NULL;$/;"	v
+output_file_prefix	tcptrace.c	/^char *output_file_prefix = NULL;$/;"	v
+output_filename	tcptrace.c	/^char *output_filename = NULL;$/;"	v
+p2plast	plotter.c	/^    tcb *p2plast;		\/* the TCB that this goes with (if any) *\/$/;"	m	struct:plotter_info	file:
+packet_count	udp.c	/^static int packet_count = 0;$/;"	v	file:
+packetlength	etherpeek.c	/^    tt_uint16	packetlength;	\/* Total length of packet. *\/$/;"	m	struct:PeekPacket_v7	file:
+packetlength	etherpeek.c	/^    tt_uint16 packetlength;	\/* total packet length *\/$/;"	m	struct:EPFilePacket_v5_6	file:
+pad	erf.c	/^    unsigned char	pad;$/;"	m	struct:eth_rec	file:
+pagenum	netscout.c	/^  tt_int32 pagenum;$/;"	m	struct:netscout_header	file:
+parallelism	mod_tcplib.c	/^struct parallelism {$/;"	s	file:
+pburst	mod_tcplib.c	/^    struct burstdata *pburst;$/;"	m	struct:module_conninfo_tcb	typeref:struct:module_conninfo_tcb::burstdata	file:
+pcap	tcpdump.c	/^static pcap_t *pcap;$/;"	v	file:
+pclient	mod_http.c	/^    struct client_info *pclient;$/;"	m	struct:http_info	typeref:struct:http_info::client_info	file:
+pep	etherpeek.c	/^static struct ether_header *pep;$/;"	v	typeref:struct:ether_header	file:
+pep	netm.c	/^static struct ether_header *pep;$/;"	v	typeref:struct:ether_header	file:
+pep	nlanr.c	/^static struct ether_header *pep;$/;"	v	typeref:struct:ether_header	file:
+pep	ns.c	/^static struct ether_header *pep;$/;"	v	typeref:struct:ether_header	file:
+pep	snoop.c	/^static struct ether_header *pep;$/;"	v	typeref:struct:ether_header	file:
+pep_buf	netscout.c	/^static int *pep_buf;$/;"	v	file:
+pepnext	mod_tcplib.c	/^    struct endpoint_pair *pepnext;$/;"	m	struct:endpoint_pair	typeref:struct:endpoint_pair::endpoint_pair	file:
+persistant	mod_tcplib.c	/^    Bool	persistant[2];	\/* is this persistant (for each TCB) *\/$/;"	m	struct:parallelism	file:
+pf	filt_parser.c	/^    struct filter_node *pf;$/;"	m	union:__anon3	typeref:struct:__anon3::filter_node	file:
+pip_buf	etherpeek.c	/^static int *pip_buf;$/;"	v	file:
+pip_buf	netm.c	/^static int *pip_buf;$/;"	v	file:
+pip_buf	netscout.c	/^static int *pip_buf;$/;"	v	file:
+pip_buf	ns.c	/^static int *pip_buf;$/;"	v	file:
+pip_buf	snoop.c	/^static int *pip_buf;$/;"	v	file:
+pipaddr	filt_parser.c	/^    ipaddr *pipaddr;$/;"	m	union:__anon3	file:
+pl_line	plotter.c	/^struct pl_line {$/;"	s	file:
+pletohl	erf.c	159;"	d	file:
+pletohll	erf.c	150;"	d	file:
+plist	mod_inbounds.c	/^static struct protocol *plist = NULL;$/;"	v	typeref:struct:protocol	file:
+plist	mod_realtime.c	/^static struct protocol *plist = NULL;$/;"	v	typeref:struct:protocol	file:
+pload	erf.c	/^    unsigned char	pload[1];$/;"	m	struct:atm_rec	file:
+pload	erf.c	/^    unsigned char	pload[1];$/;"	m	struct:eth_rec	file:
+pload	erf.c	/^    unsigned char	pload[1];$/;"	m	struct:pos_rec	file:
+plot_init	plotter.c	/^plot_init(void)$/;"	f
+plot_tput_instant	tcptrace.c	/^Bool plot_tput_instant = TRUE;$/;"	v
+plotter	mod_http.c	/^    PLOTTER plotter;$/;"	m	struct:client_info	file:
+plotter	plotter.c	/^    PLOTTER plotter;$/;"	m	struct:pl_line	file:
+plotter_active	mod_traffic.c	/^static PLOTTER plotter_active;$/;"	v	file:
+plotter_arrow	plotter.c	/^plotter_arrow($/;"	f
+plotter_box	plotter.c	/^plotter_box($/;"	f
+plotter_bytes	mod_traffic.c	/^static PLOTTER plotter_bytes;$/;"	v	file:
+plotter_darrow	plotter.c	/^plotter_darrow($/;"	f
+plotter_data	mod_traffic.c	/^static PLOTTER plotter_data;$/;"	v	file:
+plotter_diamond	plotter.c	/^plotter_diamond($/;"	f
+plotter_dline	plotter.c	/^plotter_dline($/;"	f
+plotter_done	plotter.c	/^plotter_done(void)$/;"	f
+plotter_dot	plotter.c	/^plotter_dot($/;"	f
+plotter_dtick	plotter.c	/^plotter_dtick($/;"	f
+plotter_halfopen	mod_traffic.c	/^static PLOTTER plotter_halfopen;$/;"	v	file:
+plotter_htick	plotter.c	/^plotter_htick($/;"	f
+plotter_i_open	mod_traffic.c	/^static PLOTTER plotter_i_open;$/;"	v	file:
+plotter_idle	mod_traffic.c	/^static PLOTTER plotter_idle;$/;"	v	file:
+plotter_info	plotter.c	/^struct plotter_info {$/;"	s	file:
+plotter_invisible	plotter.c	/^plotter_invisible($/;"	f
+plotter_ix	plotter.c	/^static PLOTTER plotter_ix = NO_PLOTTER;$/;"	v	file:
+plotter_larrow	plotter.c	/^plotter_larrow($/;"	f
+plotter_line	plotter.c	/^plotter_line($/;"	f
+plotter_long	mod_traffic.c	/^static PLOTTER plotter_long;$/;"	v	file:
+plotter_loss	mod_traffic.c	/^static PLOTTER plotter_loss;$/;"	v	file:
+plotter_ltick	plotter.c	/^plotter_ltick($/;"	f
+plotter_makemore	plotter.c	/^plotter_makemore(void)$/;"	f	file:
+plotter_nothing	plotter.c	/^plotter_nothing($/;"	f
+plotter_open	mod_traffic.c	/^static PLOTTER plotter_open;$/;"	v	file:
+plotter_openclose	mod_traffic.c	/^static PLOTTER plotter_openclose;$/;"	v	file:
+plotter_packets	mod_traffic.c	/^static PLOTTER plotter_packets;$/;"	v	file:
+plotter_perm_color	plotter.c	/^plotter_perm_color($/;"	f
+plotter_plus	plotter.c	/^plotter_plus($/;"	f
+plotter_pureacks	mod_traffic.c	/^static PLOTTER plotter_pureacks;$/;"	v	file:
+plotter_rarrow	plotter.c	/^plotter_rarrow($/;"	f
+plotter_rtick	plotter.c	/^plotter_rtick($/;"	f
+plotter_rtt	mod_traffic.c	/^static PLOTTER plotter_rtt;$/;"	v	file:
+plotter_switch_axis	plotter.c	/^void plotter_switch_axis($/;"	f
+plotter_temp_color	plotter.c	/^plotter_temp_color($/;"	f
+plotter_text	plotter.c	/^plotter_text($/;"	f
+plotter_tick	plotter.c	/^plotter_tick($/;"	f
+plotter_uarrow	plotter.c	/^plotter_uarrow($/;"	f
+plotter_utick	plotter.c	/^plotter_utick($/;"	f
+plotter_vtick	plotter.c	/^plotter_vtick($/;"	f
+pmchead	mod_tcplib.c	/^    module_conninfo *pmchead;$/;"	m	struct:endpoint_pair	file:
+pnum	tcptrace.c	/^u_long pnum = 0;$/;"	v
+pool_num	pool.c	/^static int		pool_num = 0;	\/* number of existing memory pools *\/$/;"	v	file:
+pools	pool.c	/^static struct Pool	*pools = NULL;	\/* table of memory pools *\/$/;"	v	typeref:struct:Pool	file:
+port	mod_traffic.c	/^    u_short port;$/;"	m	struct:traffic_info	file:
+ports	mod_traffic.c	/^static struct traffic_info **ports;  \/* [NUM_PORTS] *\/$/;"	v	typeref:struct:traffic_info	file:
+pos	erf.c	/^        pos_rec_t	pos;$/;"	m	union:erf_record::__anon2	file:
+pos_rec	erf.c	/^typedef struct pos_rec {$/;"	s	file:
+pos_rec_t	erf.c	/^} pos_rec_t;$/;"	t	typeref:struct:pos_rec	file:
+position	mod_http.c	/^    u_long 	       position;$/;"	m	struct:time_stamp	file:
+posn	compress.c	/^int posn;$/;"	v
+pparallelism	mod_tcplib.c	/^    struct parallelism *pparallelism;$/;"	m	struct:module_conninfo	typeref:struct:module_conninfo::parallelism	file:
+pplotters	plotter.c	/^static struct plotter_info *pplotters;$/;"	v	typeref:struct:plotter_info	file:
+pread_EP	etherpeek.c	/^pread_EP($/;"	f	file:
+pread_erf	erf.c	/^pread_erf($/;"	f	file:
+pread_netm	netm.c	/^pread_netm($/;"	f	file:
+pread_netscout	netscout.c	/^pread_netscout($/;"	f	file:
+pread_nlanr	nlanr.c	/^pread_nlanr($/;"	f	file:
+pread_ns	ns.c	/^pread_ns($/;"	f	file:
+pread_ns_fulltcp	ns.c	/^int pread_ns_fulltcp($/;"	f
+pread_snoop	snoop.c	/^pread_snoop($/;"	f	file:
+pread_tcpdump	tcpdump.c	/^pread_tcpdump($/;"	f	file:
+prefix	dyncounter.c	/^    u_long prefix;		\/* from trees above *\/$/;"	m	struct:node	file:
+prev	mfiles.c	/^    MFILE *prev;$/;"	m	struct:mfile	file:
+prev	mod_http.c	/^    struct time_stamp *prev;$/;"	m	struct:time_stamp	typeref:struct:time_stamp::time_stamp	file:
+prev	mod_inbounds.c	/^     struct inbounds_tcp_conn_info *prev; \/* pointer to the next connection *\/$/;"	m	struct:inbounds_tcp_conn_info	typeref:struct:inbounds_tcp_conn_info::inbounds_tcp_conn_info	file:
+prev	mod_inbounds.c	/^     struct inbounds_udp_conn_info *prev; \/* pointer to the next connection *\/$/;"	m	struct:inbounds_udp_conn_info	typeref:struct:inbounds_udp_conn_info::inbounds_udp_conn_info	file:
+prev	mod_realtime.c	/^  struct realtime_conn_info *prev; \/* pointer to the prev connection *\/$/;"	m	struct:realtime_conn_info	typeref:struct:realtime_conn_info::realtime_conn_info	file:
+prev	mod_tcplib.c	/^    struct module_conninfo *prev;$/;"	m	struct:module_conninfo	typeref:struct:module_conninfo::module_conninfo	file:
+prev_dtype_all	mod_tcplib.c	/^    struct module_conninfo *prev_dtype_all;\/* for ALL app types *\/$/;"	m	struct:module_conninfo_tcb	typeref:struct:module_conninfo_tcb::module_conninfo	file:
+prev_dtype_byapp	mod_tcplib.c	/^    struct module_conninfo *prev_dtype_byapp; \/* just for THIS app type *\/$/;"	m	struct:module_conninfo_tcb	typeref:struct:module_conninfo_tcb::module_conninfo	file:
+print_labels	mod_collie.c	/^static Bool print_labels = TRUE;$/;"	v	file:
+print_owin	tcptrace.c	/^Bool print_owin = FALSE;$/;"	v
+print_rtt	tcptrace.c	/^Bool print_rtt = FALSE;$/;"	v
+print_seq_zero	tcptrace.c	/^Bool print_seq_zero = FALSE;$/;"	v
+printallofem	tcptrace.c	/^Bool printallofem = FALSE;$/;"	v
+printbrief	tcptrace.c	/^Bool printbrief = TRUE;$/;"	v
+printem	tcptrace.c	/^Bool printem = FALSE;$/;"	v
+printeth_packet	print.c	/^printeth_packet($/;"	f	file:
+printip_packet	print.c	/^printip_packet($/;"	f	file:
+printipv4	print.c	/^printipv4($/;"	f	file:
+printipv4_opt_addrs	print.c	/^printipv4_opt_addrs($/;"	f	file:
+printipv6	print.c	/^printipv6($/;"	f	file:
+printpacket	print.c	/^printpacket($/;"	f
+printsuppress	tcptrace.c	/^Bool printsuppress = FALSE;$/;"	v
+printtcp_packet	print.c	/^printtcp_packet($/;"	f	file:
+printticks	tcptrace.c	/^Bool printticks = FALSE;$/;"	v
+printudp_packet	print.c	/^printudp_packet($/;"	f	file:
+probe_color	trace.c	/^char *probe_color       = "orange";$/;"	v
+progname	tcptrace.c	/^static char *progname;$/;"	v	file:
+protoNum	etherpeek.c	/^    tt_uint16 protoNum;		\/* table number for the protocol*\/$/;"	m	struct:EPFilePacket3_v5_6	file:
+protoStr	etherpeek.c	/^    char protoStr[8];		\/* protocol identity string (NOT null terminated!)*\/$/;"	m	struct:EPFilePacket3_v5_6	file:
+protocol	mod_inbounds.c	/^struct protocol $/;"	s	file:
+protocol	mod_realtime.c	/^struct protocol {$/;"	s	file:
+protospec	etherpeek.c	/^    tt_uint16	protospec;	\/* ProtoSpec ID. *\/$/;"	m	struct:PeekPacket_v7	file:
+ptcb	mod_rttgraph.c	/^    tcb *ptcb;$/;"	m	struct:rtt_tcb	file:
+ptcb	mod_tcplib.c	/^    tcb 	*ptcb;$/;"	m	struct:module_conninfo_tcb	file:
+pti1	mod_traffic.c	/^    struct traffic_info *pti1;	\/* pointer to the port info for this one *\/$/;"	m	struct:conn_info	typeref:struct:conn_info::traffic_info	file:
+pti2	mod_traffic.c	/^    struct traffic_info *pti2;	\/* pointer to the port info for this one *\/$/;"	m	struct:conn_info	typeref:struct:conn_info::traffic_info	file:
+ptp	mod_collie.c	/^    tcp_pair *ptp;$/;"	m	struct:conn_info	file:
+ptp	mod_http.c	/^    tcp_pair *ptp;$/;"	m	struct:http_info	file:
+ptp	mod_inbounds.c	/^     tcp_pair *ptp;$/;"	m	struct:inbounds_tcp_conn_info	file:
+ptp	mod_realtime.c	/^  tcp_pair		*ptp;$/;"	m	struct:realtime_conn_info	file:
+ptp	mod_rttgraph.c	/^    tcp_pair *ptp;$/;"	m	struct:rttgraph_info	file:
+ptp	mod_tcplib.c	/^    tcp_pair *ptp;$/;"	m	struct:module_conninfo	file:
+ptp2ptcb	trace.c	/^ptp2ptcb($/;"	f
+ptp_hashtable	trace.c	/^static ptp_snap *ptp_hashtable[HASH_TABLE_SIZE] = {NULL};$/;"	v	file:
+ptp_ptr_pool	poolaccess.c	/^static long ptp_ptr_pool  = -1;$/;"	v	file:
+ptp_snap_pool	poolaccess.c	/^static long ptp_snap_pool = -1;$/;"	v	file:
+pup	mod_collie.c	/^    udp_pair *pup;$/;"	m	struct:uconn_info	file:
+pup	mod_inbounds.c	/^     udp_pair *pup;$/;"	m	struct:inbounds_udp_conn_info	file:
+push_color	trace.c	/^char *push_color	= "white";	\/* top arrow for PUSHed segments *\/$/;"	v
+q2aIdle	mod_inbounds.c	/^     timeval q2aIdle;$/;"	m	struct:inbounds_tcp_conn_info	file:
+q2aIdle	mod_inbounds.c	/^     timeval q2aIdle;$/;"	m	struct:inbounds_udp_conn_info	file:
+qNum	mod_inbounds.c	/^     u_int qNum;$/;"	m	struct:inbounds_tcp_conn_info	file:
+qNum	mod_inbounds.c	/^     u_int qNum;$/;"	m	struct:inbounds_udp_conn_info	file:
+qSum	mod_inbounds.c	/^     u_long qSum;$/;"	m	struct:inbounds_tcp_conn_info	file:
+qSum	mod_inbounds.c	/^     u_long qSum;$/;"	m	struct:inbounds_udp_conn_info	file:
+quadrant_pool	poolaccess.c	/^static long quadrant_pool = -1;$/;"	v	file:
+rcsid	avl.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	compress.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	dyncounter.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	erf.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	etherpeek.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	filter.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	gcache.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	ipv6.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	mfiles.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	mod_collie.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	mod_http.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	mod_realtime.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	mod_rttgraph.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	mod_slice.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	mod_tcplib.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	mod_traffic.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	names.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	netm.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	netscout.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	nlanr.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	ns.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	output.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	plotter.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	pool.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	poolaccess.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	print.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	rexmit.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	snoop.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	tcpdump.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	tcptrace.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	thruput.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	trace.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid	udp.c	/^static char const GCC_UNUSED rcsid[] =$/;"	v	file:
+rcsid_dstring	dstring.c	/^static char const GCC_UNUSED rcsid_dstring[] =$/;"	v	file:
+rcsid_version	version.c	/^static char const GCC_UNUSED rcsid_version[] =$/;"	v	file:
+rcsid_versnum	versnum.c	/^static char const GCC_UNUSED rcsid_versnum[] =$/;"	v	file:
+realtime_conn_info	mod_realtime.c	/^struct realtime_conn_info {$/;"	s	file:
+realtime_deleteconn	mod_realtime.c	/^realtime_deleteconn($/;"	f
+realtime_done	mod_realtime.c	/^realtime_done(void)$/;"	f
+realtime_info	mod_realtime.c	/^struct realtime_info {$/;"	s	file:
+realtime_init	mod_realtime.c	/^realtime_init($/;"	f
+realtime_newconn	mod_realtime.c	/^realtime_newconn( $/;"	f
+realtime_nontcpudp_read	mod_realtime.c	/^realtime_nontcpudp_read($/;"	f
+realtime_read	mod_realtime.c	/^realtime_read($/;"	f
+realtime_udp_read	mod_realtime.c	/^realtime_udp_read($/;"	f
+realtime_update_interval	mod_realtime.c	/^const static int realtime_update_interval = 60;$/;"	v	file:
+realtime_usage	mod_realtime.c	/^realtime_usage(void)$/;"	f
+rec	erf.c	/^    } rec;$/;"	m	struct:erf_record	typeref:union:erf_record::__anon2	file:
+record	erf.c	/^static erf_record_t *record;$/;"	v	file:
+records_for_erf_check	erf.c	/^static int records_for_erf_check = RECORDS_FOR_ERF_CHECK;$/;"	v	file:
+remove_closed_conn_interval	tcptrace.c	/^u_long remove_closed_conn_interval = REMOVE_CLOSED_CONN_INTERVAL;$/;"	v
+remove_live_conn_interval	tcptrace.c	/^u_long remove_live_conn_interval = REMOVE_LIVE_CONN_INTERVAL;$/;"	v
+reply_position	mod_http.c	/^    unsigned reply_position;    \/* byte offset for this reply *\/$/;"	m	struct:get_info	file:
+request_position	mod_http.c	/^    unsigned request_position;  \/* byte offset for this request *\/$/;"	m	struct:get_info	file:
+resolve_ipaddresses	tcptrace.c	/^Bool resolve_ipaddresses = TRUE;$/;"	v
+resolve_ports	tcptrace.c	/^Bool resolve_ports = TRUE;$/;"	v
+response_code	mod_http.c	/^    unsigned response_code;     \/* HTTP response code *\/$/;"	m	struct:get_info	file:
+retrans_color	trace.c	/^char *retrans_color	= "red";$/;"	v
+rexmit	rexmit.c	/^rexmit (tcb * ptcb,$/;"	f
+rexmits	mod_traffic.c	/^static u_long rexmits;$/;"	v	file:
+rlen	erf.c	/^    unsigned short	rlen;$/;"	m	struct:erf_record	file:
+rtconn	mod_realtime.c	/^typedef struct realtime_conn_info rtconn;$/;"	t	typeref:struct:realtime_conn_info	file:
+rtconn_pool	mod_realtime.c	/^static long rtconn_pool   = -1;$/;"	v	file:
+rtinfo	mod_realtime.c	/^typedef struct realtime_info rtinfo;$/;"	t	typeref:struct:realtime_info	file:
+rtt	mod_rttgraph.c	/^    struct hist rtt;$/;"	m	struct:hist3d	typeref:struct:hist3d::hist	file:
+rtt_ackin	rexmit.c	/^rtt_ackin (tcb * ptcb,$/;"	f	file:
+rtt_diff_slices	mod_rttgraph.c	/^    struct hist rtt_diff_slices[NUM_SLICES+1];$/;"	m	struct:hist3d	typeref:struct:hist3d::hist	file:
+rtt_max	mod_traffic.c	/^static int rtt_max = -1;	\/* in msecs *\/$/;"	v	file:
+rtt_maxvalid	mod_traffic.c	/^static u_int rtt_maxvalid = 0xffffffff; \/* maximum RTT to consider (ms) *\/$/;"	v	file:
+rtt_min	mod_traffic.c	/^static int rtt_min = -1;	\/* in msecs *\/$/;"	v	file:
+rtt_minvalid	mod_traffic.c	/^static u_int rtt_minvalid = 0;	\/* minimum RTT to consider (ms) *\/$/;"	v	file:
+rtt_retrans	rexmit.c	/^rtt_retrans (tcb * ptcb,$/;"	f	file:
+rtt_samples	mod_traffic.c	/^static int rtt_samples;$/;"	v	file:
+rtt_tcb	mod_rttgraph.c	/^struct rtt_tcb {$/;"	s	file:
+rtt_ttl	mod_traffic.c	/^static float rtt_ttl;		\/* in msecs *\/$/;"	v	file:
+rttgraph_done	mod_rttgraph.c	/^rttgraph_done(void)$/;"	f
+rttgraph_info	mod_rttgraph.c	/^static struct rttgraph_info {$/;"	s	file:
+rttgraph_init	mod_rttgraph.c	/^rttgraph_init($/;"	f
+rttgraph_newconn	mod_rttgraph.c	/^rttgraph_newconn($/;"	f
+rttgraph_read	mod_rttgraph.c	/^rttgraph_read($/;"	f
+rttgraph_usage	mod_rttgraph.c	/^rttgraph_usage(void)$/;"	f
+rttgraphhead	mod_rttgraph.c	/^} *rttgraphhead = NULL, *rttgraphtail = NULL;$/;"	v	typeref:struct:rttgraph_info	file:
+rttgraphtail	mod_rttgraph.c	/^} *rttgraphhead = NULL, *rttgraphtail = NULL;$/;"	v	typeref:struct:rttgraph_info	file:
+run_continuously	tcptrace.c	/^Bool run_continuously = FALSE;$/;"	v
+s_fin_time	mod_http.c	/^    timeval s_fin_time;		\/* when SERVER sent FIN *\/$/;"	m	struct:http_info	file:
+s_syn_time	mod_http.c	/^    timeval s_syn_time;		\/* when SERVER sent SYN *\/$/;"	m	struct:http_info	file:
+sack_color	trace.c	/^char *sack_color	= "purple";$/;"	v
+sample_elapsed_time	trace.c	/^static double sample_elapsed_time=0; \/* to keep track of owin samples *\/$/;"	v	file:
+samples	mod_rttgraph.c	/^    struct samples samples;$/;"	m	struct:rtt_tcb	typeref:struct:rtt_tcb::samples	file:
+samples	mod_rttgraph.c	/^    u_short *samples;$/;"	m	struct:samples	file:
+samples	mod_rttgraph.c	/^struct samples {$/;"	s	file:
+save_tcp_data	tcptrace.c	/^Bool save_tcp_data = FALSE;$/;"	v
+search_count	trace.c	/^static int search_count = 0;$/;"	v	file:
+search_count	udp.c	/^static int search_count = 0;$/;"	v	file:
+search_efficiency	trace.c	/^struct search_efficiency {$/;"	s	file:
+secs	snoop.c	/^    tt_uint32	secs;$/;"	m	struct:snoop_packet_header	file:
+segment_pool	poolaccess.c	/^static long segment_pool  = -1;$/;"	v	file:
+send_time	mod_http.c	/^    timeval send_time;		\/* when SERVER sent CONTENT *\/$/;"	m	struct:get_info	file:
+seqspace_pool	poolaccess.c	/^static long seqspace_pool = -1;$/;"	v	file:
+setup_breakdown	mod_tcplib.c	/^static void setup_breakdown(void)$/;"	f	file:
+show_out_order	trace.c	/^Bool show_out_order = TRUE;$/;"	v
+show_rexmit	trace.c	/^Bool show_rexmit = TRUE;$/;"	v
+show_rtt_dongles	trace.c	/^Bool show_rtt_dongles = FALSE;$/;"	v
+show_rwinline	tcptrace.c	/^Bool show_rwinline = TRUE;$/;"	v
+show_sacks	trace.c	/^Bool show_sacks = TRUE;$/;"	v
+show_title	tcptrace.c	/^Bool show_title = TRUE;$/;"	v
+show_triple_dupack	trace.c	/^Bool show_triple_dupack = TRUE;$/;"	v
+show_urg	trace.c	/^Bool show_urg = TRUE;$/;"	v
+show_zero_window	trace.c	/^Bool show_zero_window = TRUE;$/;"	v
+show_zwnd_probes	trace.c	/^Bool show_zwnd_probes = TRUE;$/;"	v
+signed_long	filt_parser.c	/^    long signed_long;$/;"	m	union:__anon3	file:
+size	mod_tcplib.c	/^    dyn_counter size;		\/* size of the items *\/$/;"	m	struct:burstdata	file:
+slice_counters	mod_slice.c	/^static struct slice_counters {$/;"	s	file:
+slice_done	mod_slice.c	/^slice_done(void)$/;"	f
+slice_init	mod_slice.c	/^slice_init($/;"	f
+slice_interval	mod_slice.c	/^static float slice_interval = 15.0;  \/* 15 seconds by default *\/$/;"	v	file:
+slice_newconn	mod_slice.c	/^slice_newconn($/;"	f
+slice_number	mod_slice.c	/^static u_long slice_number = 1;	\/* while slice interval are we in? *\/$/;"	v	file:
+slice_read	mod_slice.c	/^slice_read($/;"	f
+slice_usage	mod_slice.c	/^slice_usage(void)$/;"	f
+slicelength	etherpeek.c	/^    tt_uint16	slicelength;	\/* Sliced length of packet. *\/$/;"	m	struct:PeekPacket_v7	file:
+slicelength	etherpeek.c	/^    tt_uint16 slicelength;	\/* sliced length of packet*\/$/;"	m	struct:EPFilePacket_v5_6	file:
+snoop_file_header	snoop.c	/^struct snoop_file_header {$/;"	s	file:
+snoop_mac_type	snoop.c	/^static int snoop_mac_type;$/;"	v	file:
+snoop_packet_header	snoop.c	/^struct snoop_packet_header {$/;"	s	file:
+snoop_version	snoop.c	/^    tt_uint32		snoop_version;	\/* current version is "2" *\/$/;"	m	struct:snoop_file_header	file:
+snprintf_vms	snprintf_vms.c	/^int snprintf_vms(char *str, size_t len, const char *fmt, ...)$/;"	f
+sorted	pool.c	/^  short		sorted;		\/* whether list of blocks should be sorted *\/$/;"	m	struct:Pool	file:
+sp	output.c	/^char *sp;  \/* Separator used for long output with <SP>-separated-values *\/$/;"	v
+src	erf.c	/^    unsigned char	src[6];$/;"	m	struct:eth_rec	file:
+srcNum	etherpeek.c	/^    tt_uint16 srcNum;		\/* dnum is entry in table*\/$/;"	m	struct:EPFilePacket3_v5_6	file:
+status	etherpeek.c	/^    char status;		\/* filler to fill to even boundary*\/$/;"	m	struct:EPFileHeader	file:
+status	etherpeek.c	/^    u_char	status;		\/* Slicing, ... *\/$/;"	m	struct:PeekPacket_v7	file:
+status	etherpeek.c	/^    u_char status;		\/* slice, trunc, ...*\/$/;"	m	struct:EPFilePacket2_v5_6	file:
+str2ipaddr	ipv6.c	/^str2ipaddr($/;"	f
+stream	mfiles.c	/^    FILE *stream;$/;"	m	struct:mfile	file:
+string	filt_parser.c	/^    char *string;$/;"	m	union:__anon3	file:
+strncpy	gcache.c	230;"	d	file:
+strncpy	netscout.c	79;"	d	file:
+sv	tcptrace.c	/^char *sv = NULL;$/;"	v
+sv_expected_count	output.c	/^static u_int sv_expected_count = 0;$/;"	v	file:
+sv_print_count	output.c	/^static u_int sv_print_count    = 0;$/;"	v	file:
+synfin_color	trace.c	/^char *synfin_color	= "orange";$/;"	v
+t_dtype	mod_tcplib.c	/^enum t_dtype {LOCAL = 0, INCOMING = 1, OUTGOING = 2, REMOTE = 3};$/;"	g	file:
+t_time_format	mod_slice.c	/^enum t_time_format {tf_long=1, tf_brief=2, tf_unix=3, tf_unix_long=4};$/;"	g	file:
+table_size	pool.c	/^static unsigned		table_size = 0;	\/* size of the pool table *\/$/;"	v	file:
+tcb_cache	mod_tcplib.c	/^    struct module_conninfo_tcb tcb_cache[2];$/;"	m	struct:module_conninfo	typeref:struct:module_conninfo::module_conninfo_tcb	file:
+tcb_client	mod_http.c	/^    tcb *tcb_client;$/;"	m	struct:http_info	file:
+tcb_lastdata	mod_inbounds.c	/^     tcb *tcb_lastdata;$/;"	m	struct:inbounds_tcp_conn_info	file:
+tcb_lastdata	mod_tcplib.c	/^    tcb *tcb_lastdata;$/;"	m	struct:module_conninfo	file:
+tcb_server	mod_http.c	/^    tcb *tcb_server;$/;"	m	struct:http_info	file:
+tcpCheck	mod_inbounds.c	/^tcpCheck($/;"	f	file:
+tcp_cksum	trace.c	/^tcp_cksum($/;"	f	file:
+tcp_cksum_valid	trace.c	/^tcp_cksum_valid($/;"	f
+tcp_conn_head	mod_inbounds.c	/^     itcinfo *tcp_conn_head;	\/* head of the list of tcp connections *\/$/;"	m	struct:inbounds_info	file:
+tcp_conn_tail	mod_inbounds.c	/^     itcinfo *tcp_conn_tail;	\/* tail of the list of tcp connections *\/$/;"	m	struct:inbounds_info	file:
+tcp_header	nlanr.c	/^    struct tcphdr tcp_header;  \/* just the first 16 bytes present *\/$/;"	m	struct:tsh_frame	typeref:struct:tsh_frame::tcphdr	file:
+tcp_new_conn	mod_inbounds.c	/^     u_short tcp_new_conn;	\/* number of new connections within the $/;"	m	struct:inbounds_info	file:
+tcp_packet_count	trace.c	/^static int tcp_packet_count = 0;$/;"	v	file:
+tcp_packets	mod_inbounds.c	/^static u_llong tcp_packets = 0;$/;"	v	file:
+tcp_packets	mod_realtime.c	/^static u_llong tcp_packets = 0;$/;"	v	file:
+tcp_pair_pool	poolaccess.c	/^static long tcp_pair_pool = -1;$/;"	v	file:
+tcp_total_conn	mod_inbounds.c	/^     u_short tcp_total_conn; \/\/ number of currect active connections$/;"	m	struct:inbounds_info	file:
+tcp_trace_count	trace.c	/^u_long tcp_trace_count = 0;$/;"	v
+tcpb	ns.c	/^static struct tcphdr *tcpb;$/;"	v	typeref:struct:tcphdr	file:
+tcplib_add_telnet_interarrival	mod_tcplib.c	/^void tcplib_add_telnet_interarrival($/;"	f
+tcplib_add_telnet_packetsize	mod_tcplib.c	/^void tcplib_add_telnet_packetsize($/;"	f
+tcplib_breakdown_interval	mod_tcplib.c	/^    int tcplib_breakdown_interval[NUM_APPS];$/;"	m	struct:tcplibstats	file:
+tcplib_cleanup_bursts	mod_tcplib.c	/^tcplib_cleanup_bursts()$/;"	f	file:
+tcplib_do_GENERIC_P_maxconns	mod_tcplib.c	/^tcplib_do_GENERIC_P_maxconns($/;"	f	file:
+tcplib_do_GENERIC_burstsize	mod_tcplib.c	/^tcplib_do_GENERIC_burstsize($/;"	f	file:
+tcplib_do_GENERIC_idletime	mod_tcplib.c	/^tcplib_do_GENERIC_idletime($/;"	f	file:
+tcplib_do_GENERIC_itemsize	mod_tcplib.c	/^tcplib_do_GENERIC_itemsize($/;"	f	file:
+tcplib_do_GENERIC_nitems	mod_tcplib.c	/^tcplib_do_GENERIC_nitems($/;"	f	file:
+tcplib_do_ftp_control_size	mod_tcplib.c	/^static void tcplib_do_ftp_control_size($/;"	f	file:
+tcplib_do_ftp_itemsize	mod_tcplib.c	/^void tcplib_do_ftp_itemsize($/;"	f
+tcplib_do_ftp_numitems	mod_tcplib.c	/^void tcplib_do_ftp_numitems($/;"	f
+tcplib_do_smtp_itemsize	mod_tcplib.c	/^static void tcplib_do_smtp_itemsize($/;"	f	file:
+tcplib_do_telnet_duration	mod_tcplib.c	/^void tcplib_do_telnet_duration($/;"	f
+tcplib_do_telnet_interarrival	mod_tcplib.c	/^void tcplib_do_telnet_interarrival($/;"	f
+tcplib_do_telnet_packetsize	mod_tcplib.c	/^void tcplib_do_telnet_packetsize($/;"	f
+tcplib_done	mod_tcplib.c	/^void tcplib_done()$/;"	f
+tcplib_filter_http_uni	mod_tcplib.c	/^tcplib_filter_http_uni()$/;"	f	file:
+tcplib_init	mod_tcplib.c	/^int tcplib_init($/;"	f
+tcplib_init_setup	mod_tcplib.c	/^static void tcplib_init_setup(void)$/;"	f	file:
+tcplib_newconn	mod_tcplib.c	/^tcplib_newconn($/;"	f
+tcplib_newfile	mod_tcplib.c	/^void tcplib_newfile($/;"	f
+tcplib_read	mod_tcplib.c	/^void tcplib_read($/;"	f
+tcplib_save_bursts	mod_tcplib.c	/^tcplib_save_bursts()$/;"	f	file:
+tcplib_usage	mod_tcplib.c	/^void tcplib_usage()$/;"	f
+tcplibstats	mod_tcplib.c	/^static struct tcplibstats {$/;"	s	file:
+tcptrace_version	tcptrace.c	/^char *tcptrace_version = VERSION;$/;"	v
+telnet_interarrival	mod_tcplib.c	/^    dyn_counter telnet_interarrival;$/;"	m	struct:tcplibstats	file:
+telnet_pktsize	mod_tcplib.c	/^    dyn_counter telnet_pktsize;$/;"	m	struct:tcplibstats	file:
+temp_color	plotter.c	/^static char *temp_color = NULL;$/;"	v	file:
+tempfile	compress.c	/^static char *tempfile;$/;"	v	file:
+text_color	trace.c	/^char *text_color	= "magenta";$/;"	v
+tf_brief	mod_slice.c	/^enum t_time_format {tf_long=1, tf_brief=2, tf_unix=3, tf_unix_long=4};$/;"	e	enum:t_time_format	file:
+tf_long	mod_slice.c	/^enum t_time_format {tf_long=1, tf_brief=2, tf_unix=3, tf_unix_long=4};$/;"	e	enum:t_time_format	file:
+tf_unix	mod_slice.c	/^enum t_time_format {tf_long=1, tf_brief=2, tf_unix=3, tf_unix_long=4};$/;"	e	enum:t_time_format	file:
+tf_unix_long	mod_slice.c	/^enum t_time_format {tf_long=1, tf_brief=2, tf_unix=3, tf_unix_long=4};$/;"	e	enum:t_time_format	file:
+thetime	mod_http.c	/^    timeval 	       thetime;$/;"	m	struct:time_stamp	file:
+thisfile_ep_version	etherpeek.c	/^static char thisfile_ep_version;$/;"	v	file:
+throughput	mod_tcplib.c	/^    dyn_counter throughput;$/;"	m	struct:tcplibstats	file:
+throughput_bytes	mod_tcplib.c	/^    int throughput_bytes;$/;"	m	struct:tcplibstats	file:
+thru_interval	trace.c	/^int thru_interval = 10;	\/* in segments *\/$/;"	v
+timeDate	etherpeek.c	/^    tt_uint32 timeDate;		\/* time and date stamp of the file (MAC format)*\/$/;"	m	struct:EPFileHeader2	file:
+timeStart	etherpeek.c	/^    tt_uint32 timeStart;		\/* time of the first packet in the file*\/$/;"	m	struct:EPFileHeader2	file:
+timeStop	etherpeek.c	/^    tt_uint32 timeStop;		\/* time of the last packet in the file*\/$/;"	m	struct:EPFileHeader2	file:
+time_format	mod_slice.c	/^static enum t_time_format time_format = tf_brief;$/;"	v	typeref:enum:t_time_format	file:
+time_stamp	mod_http.c	/^struct time_stamp {$/;"	s	file:
+timestamp	etherpeek.c	/^    tt_uint32  timestamp;		\/* timestamp in milliseconds*\/$/;"	m	struct:EPFilePacket3_v5_6	file:
+timestamphi	etherpeek.c	/^    tt_uint32	timestamphi;	\/* 64-bit timestamp in microseconds. *\/$/;"	m	struct:PeekPacket_v7	file:
+timestamplo	etherpeek.c	/^    tt_uint32	timestamplo;$/;"	m	struct:PeekPacket_v7	file:
+title	plotter.c	/^    char *title;                \/* Plotter title *\/$/;"	m	struct:plotter_info	file:
+tlen	netm.c	/^    int	tlen;  \/* truncated length *\/$/;"	m	struct:netm_packet_header	file:
+tlen	netm.c	/^    int	tlen;$/;"	m	struct:netm_packet_header_old	file:
+tlen	netscout.c	/^    tt_int32	tlen;$/;"	m	struct:netscout_packet_header	file:
+tlen	snoop.c	/^    tt_uint32	tlen;$/;"	m	struct:snoop_packet_header	file:
+tline_left	trace.c	/^static int tline_left  = 0; \/* left and right time lines for the time line charts *\/$/;"	v	file:
+tline_right	trace.c	/^static int tline_right = 0;$/;"	v	file:
+total_conns	mod_realtime.c	/^  u_long        total_conns;		\/* number of currect active connections *\/$/;"	m	struct:realtime_info	file:
+total_count	dyncounter.c	/^    u_long total_count;		\/* sum of the "AddToCounters" call values *\/$/;"	m	struct:dyn_counter	file:
+total_elapsed_time	trace.c	/^static double total_elapsed_time=0; \/* to keep track of owin samples *\/ $/;"	v	file:
+total_length_ext_headers	ipv6.c	/^int total_length_ext_headers($/;"	f
+total_reply_count	mod_http.c	/^    unsigned total_reply_count;$/;"	m	struct:http_info	file:
+total_reply_length	mod_http.c	/^    unsigned total_reply_length;$/;"	m	struct:http_info	file:
+total_request_count	mod_http.c	/^    unsigned total_request_count;$/;"	m	struct:http_info	file:
+total_request_length	mod_http.c	/^    unsigned total_request_length;$/;"	m	struct:http_info	file:
+tph	nlanr.c	/^    struct tsh_packet_header tph;$/;"	m	struct:tsh_frame	typeref:struct:tsh_frame::tsh_packet_header	file:
+trace_done	trace.c	/^trace_done(void)$/;"	f
+trace_init	trace.c	/^trace_init(void)$/;"	f
+traffic_done	mod_traffic.c	/^traffic_done(void)$/;"	f
+traffic_info	mod_traffic.c	/^struct traffic_info {$/;"	s	file:
+traffic_init	mod_traffic.c	/^traffic_init($/;"	f
+traffic_newconn	mod_traffic.c	/^traffic_newconn($/;"	f
+traffic_read	mod_traffic.c	/^traffic_read($/;"	f
+traffic_type	mod_tcplib.c	/^traffic_type($/;"	f	file:
+traffic_usage	mod_traffic.c	/^traffic_usage(void)$/;"	f
+traffichead	mod_traffic.c	/^static struct traffic_info *traffichead = NULL;$/;"	v	typeref:struct:traffic_info	file:
+trafgen_generated	mod_tcplib.c	/^static Bool trafgen_generated = FALSE;$/;"	v	file:
+tree	dyncounter.c	/^    struct node *tree;$/;"	m	struct:dyn_counter	typeref:struct:dyn_counter::node	file:
+triple_dupack_allows_data	tcptrace.c	/^Bool triple_dupack_allows_data = FALSE;$/;"	v
+ts	erf.c	/^    erf_timestamp_t	ts;$/;"	m	struct:erf_record	file:
+ts2ascii	print.c	/^ts2ascii($/;"	f
+ts2ascii_date	print.c	/^ts2ascii_date($/;"	f
+ts2d	mod_http.c	/^ts2d(timeval *pt)$/;"	f	file:
+ts_secs	nlanr.c	/^    unsigned int	ts_secs;$/;"	m	struct:tsh_packet_header	file:
+ts_usecs	nlanr.c	/^    unsigned int	ts_usecs:24;$/;"	m	struct:tsh_packet_header	file:
+tsh_frame	nlanr.c	/^struct tsh_frame {$/;"	s	file:
+tsh_packet_header	nlanr.c	/^struct tsh_packet_header {$/;"	s	file:
+tstamp_msecs	netscout.c	/^    tt_int32	tstamp_msecs;$/;"	m	struct:netscout_packet_header	file:
+tstamp_secs	netm.c	/^    int	tstamp_secs;$/;"	m	struct:netm_packet_header	file:
+tstamp_secs	netm.c	/^    int	tstamp_secs;$/;"	m	struct:netm_packet_header_old	file:
+tstamp_secs	netscout.c	/^    tt_int32	tstamp_secs;$/;"	m	struct:netscout_packet_header	file:
+tstamp_usecs	netm.c	/^    int	tstamp_usecs;$/;"	m	struct:netm_packet_header	file:
+tstamp_usecs	netm.c	/^    int	tstamp_usecs;$/;"	m	struct:netm_packet_header_old	file:
+tsv	tcptrace.c	/^Bool tsv = FALSE;$/;"	v
+ttl_dupacks	mod_traffic.c	/^static u_long ttl_dupacks;$/;"	v	file:
+ttl_i_open	mod_traffic.c	/^    u_long ttl_i_open;$/;"	m	struct:traffic_info	file:
+ttl_num_closes	mod_traffic.c	/^static int ttl_num_closes = 0;$/;"	v	file:
+ttl_num_opens	mod_traffic.c	/^static int ttl_num_opens = 0;$/;"	v	file:
+ttl_rexmits	mod_traffic.c	/^static u_long ttl_rexmits;$/;"	v	file:
+ttl_rtt_samples	mod_traffic.c	/^static int ttl_rtt_samples;$/;"	v	file:
+ttl_rtt_ttl	mod_traffic.c	/^static float ttl_rtt_ttl;	\/* in msecs *\/$/;"	v	file:
+ttlactive	mod_traffic.c	/^    u_long ttlactive;$/;"	m	struct:traffic_info	file:
+ttlbytes	mod_traffic.c	/^    u_long ttlbytes;$/;"	m	struct:traffic_info	file:
+ttlidle	mod_traffic.c	/^    u_long ttlidle;$/;"	m	struct:traffic_info	file:
+ttlitems	mod_tcplib.c	/^    u_long	ttlitems[2];	\/* across entire group (each dir) *\/$/;"	m	struct:parallelism	file:
+ttllong	mod_traffic.c	/^    u_long ttllong;$/;"	m	struct:traffic_info	file:
+ttlopen	mod_traffic.c	/^    u_long ttlopen;$/;"	m	struct:traffic_info	file:
+ttlpackets	mod_traffic.c	/^    u_long ttlpackets;$/;"	m	struct:traffic_info	file:
+ttlpureacks	mod_traffic.c	/^    u_long ttlpureacks;$/;"	m	struct:traffic_info	file:
+ttp	trace.c	/^tcp_pair **ttp = NULL;	\/* array of pointers to allocated pairs *\/$/;"	v
+tv_add	trace.c	/^tv_add(struct timeval *plhs, struct timeval rhs)$/;"	f
+tv_cmp	trace.c	/^tv_cmp(struct timeval lhs, struct timeval rhs)$/;"	f
+tv_same	trace.c	/^tv_same(struct timeval lhs, struct timeval rhs)$/;"	f
+tv_slice_interval	mod_slice.c	/^static timeval tv_slice_interval;$/;"	v	file:
+tv_sub	trace.c	/^tv_sub(struct timeval *plhs, struct timeval rhs)$/;"	f
+type	erf.c	/^    unsigned char	type;$/;"	m	struct:erf_record	file:
+uconn_info	mod_collie.c	/^struct uconn_info {$/;"	s	file:
+uconnhead	mod_collie.c	/^static struct uconn_info *uconnhead = NULL;$/;"	v	typeref:struct:uconn_info	file:
+udpCheck	mod_inbounds.c	/^udpCheck($/;"	f	file:
+udp_cksum	trace.c	/^udp_cksum($/;"	f	file:
+udp_cksum_valid	trace.c	/^udp_cksum_valid($/;"	f
+udp_conn_head	mod_inbounds.c	/^     iucinfo *udp_conn_head; \/* head of the list of udp connections *\/$/;"	m	struct:inbounds_info	file:
+udp_conn_tail	mod_inbounds.c	/^     iucinfo *udp_conn_tail; \/* tail of the list of udp connections *\/$/;"	m	struct:inbounds_info	file:
+udp_delconn_cnt	mod_inbounds.c	/^static int udp_delconn_cnt=0;$/;"	v	file:
+udp_new_conn	mod_inbounds.c	/^     u_short udp_new_conn; \/* number of new connections within the$/;"	m	struct:inbounds_info	file:
+udp_packets	mod_inbounds.c	/^static u_llong udp_packets = 0;$/;"	v	file:
+udp_packets	mod_realtime.c	/^static u_llong udp_packets = 0;$/;"	v	file:
+udp_pair_pool	poolaccess.c	/^static long udp_pair_pool = -1;$/;"	v	file:
+udp_total_conn	mod_inbounds.c	/^     u_short udp_total_conn; \/* number of currect udp active connections *\/$/;"	m	struct:inbounds_info	file:
+udp_trace_count	udp.c	/^u_long udp_trace_count = 0;$/;"	v
+udpdotrace	udp.c	/^udpdotrace($/;"	f
+udptrace_done	udp.c	/^udptrace_done(void)$/;"	f
+udptrace_init	udp.c	/^udptrace_init(void)$/;"	f
+un	dyncounter.c	/^    } un;$/;"	m	struct:node	typeref:union:node::__anon1	file:
+unidirectional_http	mod_tcplib.c	/^    Bool unidirectional_http;$/;"	m	struct:module_conninfo	file:
+unput	filt_scanner.c	153;"	d	file:
+unsigned_long	filt_parser.c	/^    u_long unsigned_long;$/;"	m	union:__anon3	file:
+unused	mod_tcplib.c	/^    unsigned char unused[3];	\/* (explicit padding) *\/$/;"	m	struct:burstkey	file:
+unused1	netm.c	/^    int	unused1;$/;"	m	struct:netm_packet_header	file:
+unused1	netm.c	/^    int	unused1;$/;"	m	struct:netm_packet_header_old	file:
+unused2	netm.c	/^    int	unused2;$/;"	m	struct:netm_packet_header	file:
+unused2	netm.c	/^    int	unused2;$/;"	m	struct:netm_packet_header_old	file:
+unused3	netm.c	/^    int	unused3;$/;"	m	struct:netm_packet_header	file:
+unused3	snoop.c	/^    tt_uint32	unused3;$/;"	m	struct:snoop_packet_header	file:
+unused5	netm.c	/^    int	unused5;$/;"	m	struct:netm_packet_header	file:
+update_breakdown	mod_tcplib.c	/^static void update_breakdown($/;"	f	file:
+update_interval	tcptrace.c	/^u_long update_interval = UPDATE_INTERVAL;$/;"	v
+update_interval_st	tcptrace.c	/^static char *update_interval_st = NULL;$/;"	v	file:
+urg_color	trace.c	/^char *urg_color		= "red";$/;"	v
+use_short_names	trace.c	/^Bool use_short_names = FALSE;$/;"	v
+usecs	snoop.c	/^    tt_uint32	usecs;$/;"	m	struct:snoop_packet_header	file:
+utp	udp.c	/^udp_pair **utp = NULL;	\/* array of pointers to allocated pairs *\/$/;"	v
+value	dyncounter.c	/^	u_long value[CARDINALITY];	\/* if depth == 1 *\/$/;"	m	union:node::__anon1	file:
+var_descr	tcptrace.c	/^    char *var_descr;		\/* variable description *\/$/;"	m	struct:ext_var_op	file:
+var_optname	tcptrace.c	/^    char *var_optname;		\/* what it's called when you set it *\/$/;"	m	struct:ext_var_op	file:
+var_popt	tcptrace.c	/^    char **var_popt;		\/* the variable itself *\/$/;"	m	struct:ext_var_op	file:
+var_verify	tcptrace.c	/^    void (*var_verify)(char *varname,$/;"	m	struct:ext_var_op	file:
+verify_checksums	tcptrace.c	/^Bool verify_checksums = FALSE;$/;"	v
+version	etherpeek.c	/^    char version;		\/* file version (must be 5, 6, or 7)*\/$/;"	m	struct:EPFileHeader	file:
+version	netm.c	/^	int	version;$/;"	m	struct:netm_header	file:
+wallclock_finished	tcptrace.c	/^struct timeval wallclock_finished;$/;"	v	typeref:struct:timeval
+wallclock_start	tcptrace.c	/^struct timeval wallclock_start;$/;"	v	typeref:struct:timeval
+warn_ooo	tcptrace.c	/^Bool warn_ooo = FALSE;$/;"	v
+warn_printbad_syn_fin_seq	tcptrace.c	/^Bool warn_printbad_syn_fin_seq = FALSE;$/;"	v
+warn_printbadcsum	tcptrace.c	/^Bool warn_printbadcsum = FALSE;$/;"	v
+warn_printbadmbz	tcptrace.c	/^Bool warn_printbadmbz = FALSE;$/;"	v
+warn_printhwdups	tcptrace.c	/^Bool warn_printhwdups = FALSE;$/;"	v
+warn_printtrunc	tcptrace.c	/^Bool warn_printtrunc = FALSE;$/;"	v
+wasactive	mod_traffic.c	/^    Bool wasactive;		\/* was this connection active over the interval? *\/$/;"	m	struct:conn_info	file:
+wasopen	mod_traffic.c	/^    Bool wasopen;		\/* was this this connection EVER open? *\/$/;"	m	struct:conn_info	file:
+whichquad	rexmit.c	/^whichquad (seqspace * sspace,$/;"	f	file:
+window_color	trace.c	/^char *window_color	= "yellow";$/;"	v
+wlen	erf.c	/^    unsigned short	wlen;$/;"	m	struct:erf_record	file:
+xlabel	plotter.c	/^    char *xlabel;               \/* Plotter x-axis label *\/$/;"	m	struct:plotter_info	file:
+xp_timestamp	plotter.c	/^xp_timestamp($/;"	f	file:
+xplot_all_files	tcptrace.c	/^Bool xplot_all_files = FALSE;$/;"	v
+xplot_args	tcptrace.c	/^char *xplot_args = NULL;$/;"	v
+xplot_title_prefix	tcptrace.c	/^char *xplot_title_prefix = NULL;$/;"	v
+ylabel	plotter.c	/^    char *ylabel;               \/* Plotter y-axis label *\/$/;"	m	struct:plotter_info	file:
+yy_accept	filt_scanner.c	/^static yyconst short int yy_accept[68] =$/;"	v	file:
+yy_at_bol	filt_scanner.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	filt_scanner.c	/^static yyconst short int yy_base[72] =$/;"	v	file:
+yy_buf_pos	filt_scanner.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	filt_scanner.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_state	filt_scanner.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	filt_scanner.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	filt_scanner.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	filt_scanner.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	filt_scanner.c	/^static yyconst short int yy_chk[162] =$/;"	v	file:
+yy_create_buffer	filt_scanner.c	/^YY_BUFFER_STATE yy_create_buffer( FILE *file, int size )$/;"	f
+yy_create_buffer	filt_scanner.c	1;"	d	file:
+yy_current_buffer	filt_scanner.c	/^static YY_BUFFER_STATE yy_current_buffer = 0;$/;"	v	file:
+yy_def	filt_scanner.c	/^static yyconst short int yy_def[72] =$/;"	v	file:
+yy_delete_buffer	filt_scanner.c	/^void yy_delete_buffer( YY_BUFFER_STATE b )$/;"	f
+yy_delete_buffer	filt_scanner.c	2;"	d	file:
+yy_did_buffer_switch_on_eof	filt_scanner.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	filt_scanner.c	/^static yyconst int yy_ec[256] =$/;"	v	file:
+yy_fatal_error	filt_scanner.c	/^static void yy_fatal_error( yyconst char msg[] )$/;"	f	file:
+yy_fill_buffer	filt_scanner.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_alloc	filt_scanner.c	/^static void *yy_flex_alloc( yy_size_t size )$/;"	f	file:
+yy_flex_debug	filt_scanner.c	6;"	d	file:
+yy_flex_free	filt_scanner.c	/^static void yy_flex_free( void *ptr )$/;"	f	file:
+yy_flex_realloc	filt_scanner.c	/^static void *yy_flex_realloc( void *ptr, yy_size_t size )$/;"	f	file:
+yy_flex_strlen	filt_scanner.c	/^static int yy_flex_strlen( yyconst char *s )$/;"	f	file:
+yy_flex_strncpy	filt_scanner.c	/^static void yy_flex_strncpy( char *s1, yyconst char *s2, int n )$/;"	f	file:
+yy_flush_buffer	filt_scanner.c	/^void yy_flush_buffer( YY_BUFFER_STATE b )$/;"	f
+yy_flush_buffer	filt_scanner.c	8;"	d	file:
+yy_get_next_buffer	filt_scanner.c	/^static int yy_get_next_buffer()$/;"	f	file:
+yy_get_previous_state	filt_scanner.c	/^static yy_state_type yy_get_previous_state()$/;"	f	file:
+yy_hold_char	filt_scanner.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	filt_scanner.c	/^static int yy_init = 1;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	filt_scanner.c	/^void yy_init_buffer( YY_BUFFER_STATE b, FILE *file )$/;"	f
+yy_init_buffer	filt_scanner.c	7;"	d	file:
+yy_input_file	filt_scanner.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	filt_scanner.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	filt_scanner.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	filt_scanner.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	filt_scanner.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	filt_scanner.c	/^void yy_load_buffer_state( void )$/;"	f
+yy_load_buffer_state	filt_scanner.c	9;"	d	file:
+yy_meta	filt_scanner.c	/^static yyconst int yy_meta[37] =$/;"	v	file:
+yy_n_chars	filt_scanner.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	filt_scanner.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	filt_scanner.c	264;"	d	file:
+yy_nxt	filt_scanner.c	/^static yyconst short int yy_nxt[162] =$/;"	v	file:
+yy_pop_state	filt_scanner.c	/^static void yy_pop_state()$/;"	f	file:
+yy_push_state	filt_scanner.c	/^static void yy_push_state( int new_state )$/;"	f	file:
+yy_scan_buffer	filt_scanner.c	/^YY_BUFFER_STATE yy_scan_buffer( char *base, yy_size_t size )$/;"	f
+yy_scan_buffer	filt_scanner.c	3;"	d	file:
+yy_scan_bytes	filt_scanner.c	/^YY_BUFFER_STATE yy_scan_bytes( yyconst char *bytes, int len )$/;"	f
+yy_scan_bytes	filt_scanner.c	5;"	d	file:
+yy_scan_string	filt_scanner.c	/^YY_BUFFER_STATE yy_scan_string( yyconst char *yy_str )$/;"	f
+yy_scan_string	filt_scanner.c	4;"	d	file:
+yy_set_bol	filt_scanner.c	273;"	d	file:
+yy_set_interactive	filt_scanner.c	266;"	d	file:
+yy_size_t	filt_scanner.c	/^typedef unsigned int yy_size_t;$/;"	t	file:
+yy_start	filt_scanner.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_start_stack	filt_scanner.c	/^static int *yy_start_stack = 0;$/;"	v	file:
+yy_start_stack_depth	filt_scanner.c	/^static int yy_start_stack_depth = 0;$/;"	v	file:
+yy_start_stack_ptr	filt_scanner.c	/^static int yy_start_stack_ptr = 0;$/;"	v	file:
+yy_state_type	filt_scanner.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	filt_scanner.c	/^void yy_switch_to_buffer( YY_BUFFER_STATE new_buffer )$/;"	f
+yy_switch_to_buffer	filt_scanner.c	10;"	d	file:
+yy_top_state	filt_scanner.c	/^static int yy_top_state()$/;"	f	file:
+yy_try_NUL_trans	filt_scanner.c	/^static yy_state_type yy_try_NUL_trans( yy_state_type yy_current_state )$/;"	f	file:
+yychar	filt_parser.c	/^int	yychar;			\/*  the lookahead symbol		*\/$/;"	v
+yychar	filt_parser.c	11;"	d	file:
+yycheck	filt_parser.c	/^static const short yycheck[] = {     4,$/;"	v	file:
+yyclearin	filt_parser.c	347;"	d	file:
+yyconst	filt_scanner.c	71;"	d	file:
+yyconst	filt_scanner.c	73;"	d	file:
+yydebug	filt_parser.c	/^int yydebug;			\/*  nonzero means print parse trace	*\/$/;"	v
+yydebug	filt_parser.c	12;"	d	file:
+yydefact	filt_parser.c	/^static const short yydefact[] = {     0,$/;"	v	file:
+yydefgoto	filt_parser.c	/^static const short yydefgoto[] = {    42,$/;"	v	file:
+yyerrok	filt_parser.c	346;"	d	file:
+yyerror	filt_parser.c	9;"	d	file:
+yyin	filt_scanner.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyin	filt_scanner.c	11;"	d	file:
+yyinput	filt_scanner.c	/^static int yyinput()$/;"	f	file:
+yyleng	filt_scanner.c	/^int yyleng;$/;"	v
+yyleng	filt_scanner.c	12;"	d	file:
+yyless	filt_scanner.c	142;"	d	file:
+yyless	filt_scanner.c	1744;"	d	file:
+yyless	filt_scanner.c	1745;"	d	file:
+yylex	filt_parser.c	8;"	d	file:
+yylex	filt_scanner.c	13;"	d	file:
+yylloc	filt_parser.c	/^YYLTYPE yylloc;			\/*  location data for the lookahead	*\/$/;"	v
+yylval	filt_parser.c	/^YYSTYPE	yylval;			\/*  the semantic value of the		*\/$/;"	v
+yylval	filt_parser.c	10;"	d	file:
+yylval	filt_scanner.c	497;"	d	file:
+yymore	filt_scanner.c	431;"	d	file:
+yynerrs	filt_parser.c	/^int yynerrs;			\/*  number of parse errors so far       *\/$/;"	v
+yynerrs	filt_parser.c	13;"	d	file:
+yyout	filt_scanner.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyout	filt_scanner.c	14;"	d	file:
+yypact	filt_parser.c	/^static const short yypact[] = {    -4,$/;"	v	file:
+yyparse	filt_parser.c	/^yyparse(YYPARSE_PARAM_ARG)$/;"	f
+yyparse	filt_parser.c	7;"	d	file:
+yypgoto	filt_parser.c	/^static const short yypgoto[] = {-32768,$/;"	v	file:
+yyprhs	filt_parser.c	/^static const short yyprhs[] = {     0,$/;"	v	file:
+yyr1	filt_parser.c	/^static const short yyr1[] = {     0,$/;"	v	file:
+yyr2	filt_parser.c	/^static const short yyr2[] = {     0,$/;"	v	file:
+yyrestart	filt_scanner.c	/^void yyrestart( FILE *input_file )$/;"	f
+yyrestart	filt_scanner.c	15;"	d	file:
+yyrhs	filt_parser.c	/^static const short yyrhs[] = {    29,$/;"	v	file:
+yyrline	filt_parser.c	/^static const short yyrline[] = { 0,$/;"	v	file:
+yytable	filt_parser.c	/^static const short yytable[] = {     1,$/;"	v	file:
+yyterminate	filt_scanner.c	617;"	d	file:
+yytext	filt_scanner.c	/^char *yytext;$/;"	v
+yytext	filt_scanner.c	16;"	d	file:
+yytext_ptr	filt_scanner.c	286;"	d	file:
+yytname	filt_parser.c	/^static const char * const yytname[] = {   "$","error","$undefined.","EOS","LPAREN",$/;"	v	file:
+yytranslate	filt_parser.c	/^static const char yytranslate[] = {     0,$/;"	v	file:
+yyunput	filt_scanner.c	/^static void yyunput( int c, register char *yy_bp )$/;"	f	file:
+yywrap	filt_scanner.c	/^int yywrap(void)$/;"	f
+yywrap	filt_scanner.c	17;"	d	file:
+z	mod_rttgraph.c	/^    u_long z;$/;"	m	struct:hist	file:
+zerotime	plotter.c	/^    timeval zerotime;		\/* first time stamp in this plot (see -z) *\/$/;"	m	struct:plotter_info	file:
